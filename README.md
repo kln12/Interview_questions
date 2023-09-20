@@ -17,7 +17,7 @@
 16. CMD vs RUN
 17.How to reduce docker image size  
 18.where docker container are stored  
-19.
+19. in production ,if plugins are installed and the process doesn't restart in production   
 
   
 
