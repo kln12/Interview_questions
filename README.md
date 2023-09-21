@@ -18,6 +18,8 @@
 17.How to reduce docker image size  
 18.where docker container are stored  
 19. in production ,if plugins are installed and the process doesn't restart in production   
+20. what is the default permission of linux system  
+21.what is Inode in linux
 
   
 
