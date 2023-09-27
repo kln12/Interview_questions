@@ -11,7 +11,7 @@
 10.how to configure the datebase frontend and backend  
 11.how to check the connections are going  
 12.how to knwo the ip address  
-13. what is ms record & Cnamein route53  
+13. what is ms record & Cname in route53  
 14.jenkins shared library  
 15.in docker (. dot ) in docker build and what can if we remove  
 16. CMD vs RUN
@@ -20,6 +20,12 @@
 19. in production ,if plugins are installed and the process doesn't restart in production   
 20. what is the default permission of linux system  
 21.what is Inode in linux
-
+22.Define docker Engine
+23.define Alert manager
+24.define prometheus
+25.if one node is down and how to pods are shedule to other nodes
+26.how to stop pods on particular node
+27.gitlab runners types
+28.
   
 
