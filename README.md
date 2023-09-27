@@ -20,12 +20,12 @@
 19. in production ,if plugins are installed and the process doesn't restart in production   
 20. what is the default permission of linux system  
 21.what is Inode in linux
-22.Define docker Engine
-23.define Alert manager
-24.define prometheus
-25.if one node is down and how to pods are shedule to other nodes
-26.how to stop pods on particular node
-27.gitlab runners types
+22.Define docker Engine  
+23.define Alert manager  
+24.define prometheus  
+25.if one node is down and how to pods are shedule to other nodes  
+26.how to stop pods on particular node  
+27.gitlab runners types  
 28.
   
 
