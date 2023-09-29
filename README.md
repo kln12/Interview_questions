@@ -26,6 +26,8 @@
 25.if one node is down and how to pods are shedule to other nodes  
 26.how to stop pods on particular node  
 27.gitlab runners types  
-28.
+28. In kubernetes, Role based authentication  
+29. explain Disastor Recovery(DR) AND types  
+
   
 
