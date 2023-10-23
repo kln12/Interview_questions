@@ -28,6 +28,13 @@
 27.gitlab runners types  
 28. In kubernetes, Role based authentication  
 29. explain Disastor Recovery(DR) AND types  
-
+30. Diff b/w EFS and  EBS   
+31. Diff B/W application Load balencer and elastic load balencer  
+32. how to replicate S3 bucket  
+33. How to troubleshoot the pod, if issue occur after 6 month  
+34.how to increase a the volume size of instance  
+35. how inconme allow but does not go outbound  
+36.Define CI/CD  
+37.
   
 
