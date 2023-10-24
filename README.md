@@ -12,10 +12,10 @@
 # Jenkins
 1.in jenkins pippeline, it have 10 stages and in 5th stage sucessfully run automatically shows result stage 7.  
 2.Jenkins pipeline, we have 10 stages in the stage 5 is failed but we need pass to stage 4 to stage 6.
-3.mvn clean install vs mvn clean deploy  
-4.mvn stages  
-5.jenkins shared library  
-6. in production ,if plugins are installed and the process doesn't restart in production   
+3.mvn clean install vs mvn clean deploy   
+4.mvn stages    
+5.jenkins shared library    
+6. in production ,if plugins are installed and the process doesn't restart in production    
 
 
 
