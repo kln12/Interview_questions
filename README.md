@@ -46,7 +46,9 @@
 1.how to pass an argument in a script  
  2.what is Inode in linux  
  3.how to check the connections are going  
- 4. what is the default permission of linux system    
+ 4. what is the default permission of linux system   
+ 5.how to knwo the ip address  
+
 
 # AWS
 1. Diff b/w EFS and  EBS
@@ -54,8 +56,9 @@
  3. how to replicate S3 bucket
 4  explain Disastor Recovery(DR) AND types    
 5. how inconme allow but does not go outbound
-6. 34.how to increase a the volume size of instance
-7. 13. what is ms record & Cname in route53  
+6. how to increase a the volume size of instance
+7. what is ms record & Cname in route53
+
 
 
 
@@ -65,10 +68,11 @@
 # Monitoring
 
 1.how to configure the datebase frontend and backend  
-2.how to knwo the ip address  
 3.How to define Alert manager in grafana  
-4.define prometheus  
+4.define prometheus 
+
 #Define CI/CD  
+#Define Monolithic vs microservises
 
   
 
