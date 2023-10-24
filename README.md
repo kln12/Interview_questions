@@ -60,9 +60,9 @@
 4  explain Disastor Recovery(DR) AND types    
 5. how inconme allow but does not go outbound
 6. how to increase a the volume size of instance
-7. what is ms record & Cname in route53 
-8. **1.Difference b/w S3 vs EFS vs EBS  **
-S3:
+7. what is ms record & Cname in route53  
+****Difference b/w S3 vs EFS vs EBS**
+   S3:
 S3 An object store (not a file system).You can store files and "folders" but can't have locks, permissions etc like you would with a traditional file system.This means, by default you can't just mount S3 and use it as your webserverBut it's perfect for storing your images and videos for your website.Great for short term archiving (e.g. a few weeks). It's good for long term archiving too, but Glacier is more cost efficient.Great for storing logs. You can access the data from every region (extra costs may apply)
 Highly Available, Redundant. Basically data loss is not possible (99.999999999% durability, 99.9 uptime SLA) Much cheaper than EBS. You can serve the content directly to the internet, you can even have a full (static) website working direct from S3, without an EC2 instance 
 2.LAMBA and cloud formation  
