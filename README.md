@@ -18,16 +18,16 @@
 17.How to reduce docker image size  
 18.where docker container are stored  
 19. in production ,if plugins are installed and the process doesn't restart in production   
-20. what is the default permission of linux system  
-21.what is Inode in linux
-22.Define docker Engine  
-23.define Alert manager  
+20. what is the default permission of linux system    
+ 21.what is Inode in linux  
+22.Define docker Engine    
+23.How to define Alert manager in grafana  
 24.define prometheus  
 25.if one node is down and how to pods are shedule to other nodes  
 26.how to stop pods on particular node  
-27.gitlab runners types  
+27.gitlab runners types    
 28. In kubernetes, Role based authentication  
-29. explain Disastor Recovery(DR) AND types  
+29. explain Disastor Recovery(DR) AND types    
 30. Diff b/w EFS and  EBS   
 31. Diff B/W application Load balencer and elastic load balencer  
 32. how to replicate S3 bucket  
