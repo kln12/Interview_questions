@@ -2,10 +2,10 @@
 # GIT
 1.How to change commit name.  
 2.git actions default action  
-3.gitlab runners types 
-4. Git pull vs git fetch  
-5. Define Git stash 
-6. How to 20 commits into a single commit 
+3.gitlab runners types  
+4. Git pull vs git fetch   
+5. Define Git stash  
+6. How to 20 commits into a single commit   
 
 
 
@@ -55,44 +55,44 @@
 
 # AWS
 1. Diff b/w EFS and  EBS
-2. 31. Diff B/W application Load balencer and elastic load balencer
+ Diff B/W application Load balencer and elastic load balencer
  3. how to replicate S3 bucket
 4  explain Disastor Recovery(DR) AND types    
 5. how inconme allow but does not go outbound
 6. how to increase a the volume size of instance
-7. what is ms record & Cname in route53
-8. 1.Difference b/w S3 vs EFS vs EBS
+7. what is ms record & Cname in route53 
+8. 1.Difference b/w S3 vs EFS vs EBS  
 S3:
 S3 An object store (not a file system).You can store files and "folders" but can't have locks, permissions etc like you would with a traditional file system.This means, by default you can't just mount S3 and use it as your webserverBut it's perfect for storing your images and videos for your website.Great for short term archiving (e.g. a few weeks). It's good for long term archiving too, but Glacier is more cost efficient.Great for storing logs. You can access the data from every region (extra costs may apply)
-Highly Available, Redundant. Basically data loss is not possible (99.999999999% durability, 99.9 uptime SLA) Much cheaper than EBS. You can serve the content directly to the internet, you can even have a full (static) website working direct from S3, without an EC2 instance
-2.LAMBA and cloud formation
-3.cloud application and network la
-4.if a pem key has lost doesn't have any backup.how to login ec2 server?
-5.Iam ARN
-6.different types of EC2 instances
-7.DNS vs Gated
-8.Terminate vs stop in aws
-9.Cloud watch and SNS
-10.private and public subnet
-11.Types of s3
-12.Security group and NACL
-13.User data 
-14.Storage types
-15.Disastor Recovery
-16.Internet vs NAT Gatway
-17.Faragate
-18.VPC Peering
-19.EKS and ECS
-20.Application Load Balancer vs Network Load Balancer
-21.subnet mask and calculate rhe 10.2.1.0/16
-22.if pem key is deleted alternatively how can authenticate agent
-23.describe eni
-24.ebs volume types
-25.explain endpoints
-26.Versionind in s3
-27.FTP Commands
-28.cloud trail 
-29.nat gatway
+Highly Available, Redundant. Basically data loss is not possible (99.999999999% durability, 99.9 uptime SLA) Much cheaper than EBS. You can serve the content directly to the internet, you can even have a full (static) website working direct from S3, without an EC2 instance 
+2.LAMBA and cloud formation  
+3.cloud application and network la  
+4.if a pem key has lost doesn't have any backup.how to login ec2 server?  
+5.Iam ARN  
+6.different types of EC2 instances  
+7.DNS vs Gated  
+8.Terminate vs stop in aws    
+9.Cloud watch and SNS  
+10.private and public subnet  
+11.Types of s3  
+12.Security group and NACL  
+13.User data   
+14.Storage types  
+15.Disastor Recovery  
+16.Internet vs NAT Gatway  
+17.Faragate 
+18.VPC Peering  
+19.EKS and ECS 
+20.Application Load Balancer vs Network Load Balancer  
+21.subnet mask and calculate rhe 10.2.1.0/16  
+22.if pem key is deleted alternatively how can authenticate agent 
+23.describe eni 
+24.ebs volume types 
+25.explain endpoints  
+26.Versionind in s3   
+27.FTP Commands 
+28.cloud trail  
+29.nat gatway 
 30.code pipeline, multi tenancy, aptcontainer, elasticbean stack and how to access to access other application using iam
 
 
