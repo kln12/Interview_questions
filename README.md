@@ -1,11 +1,9 @@
 # Interview_questions
 # GIT
 **1.How to change commit name.**   
-**Answer:** no one else has pushed to the remote counterpart of the branch, would be to simply amend the commit via: 
-**git commit --amend** 
-This should bring up a text editor where you can change the commit message to whatever you want. 
-As you mentioned, you will now have to force push this branch to the remote via: 
-**git push --force origin yourBranch**  
+**Answer:** To change the commit message, you can use the --amend option with the git commit command. The --amend option allows you to make changes to the most recent commit message. For example:
+**git commit --amend -m "New commit message"** This will open your default text editor to modify the commit message. You can also include the new message with the -m option, as shown in the example.to force push your changes to the remote repository.**git push --force origin yourBranch**  
+
 **2.git actions default action** 
 **Answer:**  
 **3.Explain about gitlab runnersand types**  
