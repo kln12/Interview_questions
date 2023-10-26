@@ -7,7 +7,7 @@
 5. Define Git stash  
 6. How to 20 commits into a single commit   
 7. what is git tag 
-
+Answers:https://github.com/kln12/Interview_questions/blob/main/Git
 
 
 # Jenkins
