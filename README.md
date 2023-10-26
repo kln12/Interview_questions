@@ -1,26 +1,16 @@
-# Interview_questions
+**# Interview_questions
 # GIT
-**1.How to change commit name.**   
-**Answer:** To change the commit message, you can use the --amend option with the git commit command. The --amend option allows you to make changes to the most recent commit message. For example:
-**git commit --amend -m "New commit message"** This will open your default text editor to modify the commit message. You can also include the new message with the -m option, as shown in the example.to force push your changes to the remote repository.**git push --force origin yourBranch**  
-
-**2.git actions default action** 
-**Answer:**  
-**3.Explain about gitlab runnersand types**  
-**Answer:**  
-**4. Git pull vs git fetch**   
-**Answer:**  
-**5. Define Git stash**  
-**Answer:**  
-**6. How to 20 commits into a single commit ** 
-**Answer:**  
-**7. what is git tag**  
-**Answer:**  
+1.How to change commit name.  
+2.git actions default action   
+3.Explain about gitlab runnersand types**  
+4. Git pull vs git fetch**   
+5. Define Git stash**  
+6. How to 20 commits into a single commit **  
+7. what is git tag**  
 
 
 # Jenkins
-1.in jenkins pippeline, it have 10 stages and in 5th stage sucessfully run automatically shows result stage 7.  
-**Answer:**  
+1.in jenkins pippeline, it have 10 stages and in 5th stage sucessfully run automatically shows result stage 7.    
 2.Jenkins pipeline, we have 10 stages in the stage 5 is failed but we need pass to stage 4 to stage 6. 
 **Answer:**  
 3.mvn clean install vs mvn clean deploy   
@@ -163,3 +153,4 @@ Highly Available, Redundant. Basically data loss is not possible (99.999999999% 
 
   
 
+**
