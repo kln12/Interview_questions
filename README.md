@@ -1,22 +1,22 @@
 # Interview_questions
 # GIT
-**1.How to change commit name.  **
+**1.How to change commit name.**   
 **Answer:** no one else has pushed to the remote counterpart of the branch, would be to simply amend the commit via: 
-**git commit --amend**
+**git commit --amend** 
 This should bring up a text editor where you can change the commit message to whatever you want. 
 As you mentioned, you will now have to force push this branch to the remote via: 
-**git push --force origin yourBranch** 
-2.git actions default action 
+**git push --force origin yourBranch**  
+**2.git actions default action** 
 **Answer:**  
-3.Explain about gitlab runnersand types  
+**3.Explain about gitlab runnersand types**  
 **Answer:**  
-4. Git pull vs git fetch   
+**4. Git pull vs git fetch**   
 **Answer:**  
-5. Define Git stash  
+**5. Define Git stash**  
 **Answer:**  
-6. How to 20 commits into a single commit   
+**6. How to 20 commits into a single commit ** 
 **Answer:**  
-7. what is git tag  
+**7. what is git tag**  
 **Answer:**  
 
 
@@ -148,7 +148,7 @@ Highly Available, Redundant. Basically data loss is not possible (99.999999999% 
 
 
 
-
+**
 # Monitoring 
 1.How do you Scrape the application data using Prometheus They shared the Grafana Dashboard, asked me few scenario based questions like what is your obeservations on this dashboard is there anything you can see critical based on dashboard is application health ok how do you create alerts based on this dashboard> 
 **Answer:**  
