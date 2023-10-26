@@ -8,9 +8,12 @@ Answer:
 **4. Git pull vs git fetch**  
 Answer:  
 **5. Define Git stash**  
-Answer:  
+Answer:  git stash temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on. Stashing is handy if you need to quickly switch context and work on something else, but you're mid-way through a code change and aren't quite ready to commit.
 **6. How to 20 commits into a single commit **  
 Answer:    
 **7. what is git tag**  
-Answer:  
+**Answer:** Tags are ref's that point to specific points in Git history. Tagging is generally used to capture a point in history that is used for a marked version release (i.e. v1.0.1). A tag is like a branch that doesn’t change. Unlike branches, tags, after being created, have no further history of commits.**git tag <tagname>**  
+
+**8.what is git rebase?  
+Answer:** Rebasing is the process of moving or combining a sequence of commits to a new base commit. Rebasing is most useful and easily visualized in the context of a feature branching workflow.**git rebase <base>**
 
