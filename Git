@@ -1,0 +1,28 @@
+***1.How to change commit name.***
+cannot directly change the name of a commit once it has been created. 
+Locate the Commit You Want to Change:
+First, you need to find the commit for which you want to change the commit message. You can do this by using commands like git log to list the commits in your repository.Change the Commit Message:
+To change the commit message, you can use the --amend option with the git commit command. The --amend option allows you to make changes to the most recent commit message. For example:
+
+bash
+Copy code
+git commit --amend -m "New commit message"
+This will open your default text editor to modify the commit message. You can also include the new message with the -m option, as shown in the example.Save and Close the Editor:
+After editing the commit message, save and close the text editor.
+
+Push the Changes:
+If the commit you're changing is already pushed to a remote repository, you'll need to force push your changes to the remote repository. Be cautious when using git push --force, as it can rewrite history, and it's generally not recommended if others are working with the same repository.
+
+bash
+Copy code
+git push --force
+r, this answer involves rewriting the history of the branch in question. As such, it should be used with caution on branches which have been publicly shared.
+
+The easiest fix here, assuming that no one else has pushed to the remote counterpart of the branch, would be to simply amend the commit via:
+
+git commit --amend
+This should bring up a text editor where you can change the commit message to whatever you want.
+
+As you mentioned, you will now have to force push this branch to the remote via:
+
+git push --force origin yourBranch
