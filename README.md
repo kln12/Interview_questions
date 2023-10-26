@@ -2,11 +2,12 @@
 # GIT
 1.How to change commit name.  
 2.git actions default action   
-3.Explain about gitlab runnersand types**  
-4. Git pull vs git fetch**   
-5. Define Git stash**  
-6. How to 20 commits into a single commit **  
-7. what is git tag**  
+3.Explain about gitlab runnersand types  
+4. Git pull vs git fetch   
+5. Define Git stash  
+6. How to 20 commits into a single commit   
+7. what is git tag 
+8.What is git rebase 
 
 
 # Jenkins
