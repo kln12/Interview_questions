@@ -2,10 +2,11 @@
 # GIT
 1.How to change commit name.  
 2.git actions default action  
-3.gitlab runners types  
+3.Explain about gitlab runnersand types  
 4. Git pull vs git fetch   
 5. Define Git stash  
 6. How to 20 commits into a single commit   
+7. what is git tag 
 
 
 
@@ -26,6 +27,7 @@
 2.Define docker Engine   
 3.How to reduce docker image size  
 4. CMD vs RUN  
+5.Entrypoint vs 
 5.where docker container are stored  
 6.in docker (. dot ) in docker build and what can if we remove  
 
@@ -75,7 +77,7 @@ Highly Available, Redundant. Basically data loss is not possible (99.999999999% 
 9.Cloud watch and SNS  
 10.private and public subnet  
 11.Types of s3  
-12.Security group and NACL  
+12.Define Security group and NACL  
 13.User data   
 14.Storage types  
 15.Disastor Recovery  
@@ -84,15 +86,15 @@ Highly Available, Redundant. Basically data loss is not possible (99.999999999% 
 18.VPC Peering  
 19.EKS and ECS 
 20.Application Load Balancer vs Network Load Balancer  
-21.subnet mask and calculate rhe 10.2.1.0/16  
-22.if pem key is deleted alternatively how can authenticate agent 
-23.describe eni 
-24.ebs volume types 
-25.explain endpoints  
+21.subnet mask and calculate rhe 10.2.1.0/16   
+22.if pem key is deleted alternatively how can authenticate agent  
+23.describe eni  
+24.ebs volume types  
+25.explain endpoints   
 26.Versionind in s3   
-27.FTP Commands 
+27.FTP Commands  
 28.cloud trail  
-29.nat gatway 
+29.nat gatway  
 30.code pipeline, multi tenancy, aptcontainer, elasticbean stack and how to access to access other application using iam
 
 
@@ -101,7 +103,8 @@ Highly Available, Redundant. Basically data loss is not possible (99.999999999% 
 
 
 
-# Monitoring
+# Monitoring 
+1.How do you Scrape the application data using Prometheus They shared the Grafana Dashboard, asked me few scenario based questions like what is your obeservations on this dashboard is there anything you can see critical based on dashboard is application health ok how do you create alerts based on this dashboard>
 
 1.how to configure the datebase frontend and backend  
 3.How to define Alert manager in grafana  
