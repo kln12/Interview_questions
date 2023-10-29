@@ -50,30 +50,33 @@ Answer**Amazon Resource Names (ARNs) uniquely identify AWS resources. We require
 **6.Different types of EC2 instances   
 Answer:** Amazon EC2 provides a wide selection of instance types optimized to fit different use cases. Instance types comprise varying combinations of CPU, memory, storage, and networking capacity and give you the flexibility to choose the appropriate mix of resources for your applications. Each instance type includes one or more instance sizes, allowing you to scale your resources to the requirements of your target workload.  
 1.General Purpose  2.Compute Optimized 3.Memory Optimized 4.Accelerated Computing 5.Storage Optimized   
-**7.What is the difference b/w th DNS and Gated       
+**7.What is the difference b/w the DNS and Gated       
 Answer:**   DNS server - Domain Name System. As the name itself indicates it translates domain name to IP address.   
 Gateway - In simple way of saying it’s a network device to be more specific it’s a router( or firewall, server, any network device which allows to and from traffic). This router acts as a gateway between two networks ( internal and external network).   
-**8.Terminate vs stop in aws    
-Answer:**  
+**8.difference b/w the Terminate and stop in AWS    
+Answer:** When you stop an AWS EC2 instance, you do not get charged for that instance and can restart the instance with all the data and software on the EC2 instance being intact. However, you are charged for the EBS volumes attached with the instance.   
+When you terminate an AWS EC2 instance, you cannot restart the instance and all the data is permenantely lost. You cannot use that same instance ever again. Once the state of the instance is changed to shutting-down or terminated you are no longer charged for that instance.   
+It is always a good practice to take backup of your EC2 instance as AMI and of your EBS volumes as snapshot before terminating the instance. A new EC2 instance with an EBS volume can be spawned from the AMI and the snapshot   
 **9.Cloud watch and SNS   
 Answer**
-10.private and public subnet
+**10.private and public subnet  
+Answer**    
 11.Types of s3     
-12.Define Security group and NACL   
-13.User data   
-14.Storage types   
-15.Disastor Recovery   
-16.Internet vs NAT Gatway   
-17.Faragate 18.VPC Peering   
-19.EKS and ECS Answer:   
-20.Application Load Balancer vs Network Load Balancer   
-21.subnet mask and calculate rhe 10.2.1.0/16   
-22.if pem key is deleted alternatively how can authenticate agent   
-23.describe eni   
-24.ebs volume types   
-25.explain endpoints   
-26.Versionind in s3   
-27.FTP Commands   
-28.cloud trail   
-29.nat gatway     
+12.Define Security group and NACL  Answer     
+13.Explain User data    Answer   
+14.Storage types    Answer   
+15.Disastor Recovery    Answer   
+16.Internet vs NAT Gatway    Answer   
+17.Faragate 18.VPC Peering    Answer   
+19.EKS and ECS Answer:    Answer   
+20.Application Load Balancer vs Network Load Balancer    Answer   
+21.subnet mask and calculate rhe 10.2.1.0/16    Answer   
+22.if pem key is deleted alternatively how can authenticate agent   Answer    
+23.describe eni    Answer   
+24.ebs volume types    Answer   
+25.What is VPC endpoints    Answer   
+26.Versionind in s3    Answer   
+27.FTP Commands    Answer   
+28.cloud trail    Answer   
+29.nat gatway      Answer   
 **30.code pipeline, multi tenancy, aptcontainer, elasticbean stack and how to access to access other application using iam**
