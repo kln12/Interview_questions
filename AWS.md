@@ -5,9 +5,14 @@ Block storage is just like a hard disk. It get mapped to a physical server (ESXi
 File storage is a storage like shared folder which we can access through IP and save our files and folders. It is of two type NFS and CIFS. NFS is in Unix machine where as CIFS is in Windows      
 **Diff B/W application Load balencer and elastic load balencer   
 Answer:** Application Load Balancers support content-based routing and support applications that run in containers. They support a pair of industry-standard protocols (WebSocket and HTTP/2), and also provide additional visibility into the health of the target instances and containers. Websites and mobile apps, running in containers or on EC2 instances, can benefit from the use of Application Load Balancers.   
-An Elastic Load Balancer (ELB) is one of the key architecture components for many applications inside the AWS cloud. In addition to autoscaling, it enables and simplifies one of the most important tasks of our application’s architecture: scaling up and down with high availability.Elastic Load Balancing automatically distributes incoming application traffic across multiple applications, microservices, and containers hosted on Amazon EC2 instances.One of the many advantages of using ELB is the fact that it is elastic (i.e. changeable), which means that it will automatically scale to meet your incoming traffic.   https://cloudacademy.com/blog/application-load-balancer-vs-classic-load-balancer/
+An Elastic Load Balancer (ELB) is one of the key architecture components for many applications inside the AWS cloud. In addition to autoscaling, it enables and simplifies one of the most important tasks of our application’s architecture: scaling up and down with high availability.Elastic Load Balancing automatically distributes incoming application traffic across multiple applications, microservices, and containers hosted on Amazon EC2 instances.One of the many advantages of using ELB is the fact that it is elastic (i.e. changeable), which means that it will automatically scale to meet your incoming traffic.   https://cloudacademy.com/blog/application-load-balancer-vs-classic-load-balancer/   
 **how to replicate S3 bucket
-Answer:**   
+Answer:**   Replication enables automatic, asynchronous copying of objects across Amazon S3 buckets. Buckets that are configured for object replication can be owned by the same AWS account or by different accounts.To automatically replicate new objects as they are written to the bucket, use live replication, such as Cross-Region Replication (CRR). To replicate existing objects to a different bucket on demand, use S3 Batch Replication   
+###Choose if both S3 buckets belong to same account or different accounts ###
+Create 2nd replicated bucket (if not present)
+Check if Bucket Versioning is enabled or not. On Both buckets, it needs to be enabled
+to check, Go to AWS S3 console -> Open S3 Bucket -> Properties -> Bucket Versioning
+Make sure you have access to both S3 buckets, to copy content and make changes in S3 bucket configurations   
 **4 explain Disastor Recovery(DR) AND types    
 Answer:**   
 **how inconme allow but does not go outbound      
