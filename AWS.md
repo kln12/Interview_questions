@@ -48,13 +48,15 @@ Use helper instance pem file to log into recovery instance.
 Answer**Amazon Resource Names (ARNs) uniquely identify AWS resources. We require an ARN when you need to specify a resource unambiguously across all of AWS, such as in IAM policies, Amazon Relational Database Service (Amazon RDS) tags, and API calls.   
 ***arn:partition:service:region:account-id:resource-id   
 **6.Different types of EC2 instances   
-Answer:**Amazon EC2 provides a wide selection of instance types optimized to fit different use cases. Instance types comprise varying combinations of CPU, memory, storage, and networking capacity and give you the flexibility to choose the appropriate mix of resources for your applications. Each instance type includes one or more instance sizes, allowing you to scale your resources to the requirements of your target workload.  
+Answer:** Amazon EC2 provides a wide selection of instance types optimized to fit different use cases. Instance types comprise varying combinations of CPU, memory, storage, and networking capacity and give you the flexibility to choose the appropriate mix of resources for your applications. Each instance type includes one or more instance sizes, allowing you to scale your resources to the requirements of your target workload.  
 1.General Purpose  2.Compute Optimized 3.Memory Optimized 4.Accelerated Computing 5.Storage Optimized   
-**7.DNS vs Gated    
-Answer:**   
+**7.What is the difference b/w th DNS and Gated       
+Answer:**   DNS server - Domain Name System. As the name itself indicates it translates domain name to IP address.   
+Gateway - In simple way of saying it’s a network device to be more specific it’s a router( or firewall, server, any network device which allows to and from traffic). This router acts as a gateway between two networks ( internal and external network).   
 **8.Terminate vs stop in aws    
-Answer:**    
-9.Cloud watch and SNS
+Answer:**  
+**9.Cloud watch and SNS   
+Answer**
 10.private and public subnet
 11.Types of s3     
 12.Define Security group and NACL   
