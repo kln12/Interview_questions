@@ -14,7 +14,7 @@ Check if Bucket Versioning is enabled or not. On Both buckets, it needs to be en
 to check, Go to AWS S3 console -> Open S3 Bucket -> Properties -> Bucket Versioning
 Make sure you have access to both S3 buckets, to copy content and make changes in S3 bucket configurations   
 **4 explain Disastor Recovery(DR) AND types    
-Answer:**   
+Answer:**   https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-i-strategies-for-recovery-in-the-cloud/   
 **how inconme allow but does not go outbound      
 Answer:**   
 **how to increase a the volume size of instance  
