@@ -66,7 +66,10 @@ Answer**
 13.Explain User data    Answer   
 14.Storage types    Answer   
 15.Disastor Recovery    Answer   
-16.Internet vs NAT Gatway    Answer   
+**Difference between Internet Gateway and NAT Gateway    Answer**
+Internet Gateway (IGW) is a horizontally scaled, redundant, and highly available VPC component that allows communication between your VPC and the internet.
+Internet Gateway enables resources (like EC2 instances) in public subnets to connect to the internet. Similarly, resources on the internet can initiate a connection to resources in your subnet using the public.If a VPC does not have an Internet Gateway, then the resources in the VPC cannot be accessed from the Internet (unless the traffic flows via a Corporate Network and VPN/Direct Connect).Internet Gateway supports IPv4 and IPv6 traffic.Internet Gateway does not cause availability risks or bandwidth constraints on your network traffic.In order to make subnet public, add a route to your subnet’s route table that directs internet-bound traffic to the internet gateway.You can associate exactly one Internet Gateway with a VPC.Internet Gateway is not Availability Zone specific.There’s no additional charge for having an internet gateway in your account.   
+NAT Gateway (NGW) is a managed Network Address Translation (NAT) service. NAT Gateway does something similar to Internet Gateway (IGW), but it only works one way: Instances in a private subnet can connect to services outside your VPC but external services cannot initiate a connection with those instances.NAT gateways are supported for IPv4 or IPv6 traffic.NAT gateway supports the following protocols: TCP, UDP, and ICMP.Each NAT gateway is created in a specific Availability Zone and implemented with redundancy in that zone.   
 17.Faragate 18.VPC Peering    Answer   
 19.EKS and ECS Answer:    Answer   
 20.Application Load Balancer vs Network Load Balancer    Answer   
@@ -78,5 +81,6 @@ Answer**
 26.Versionind in s3    Answer   
 27.FTP Commands    Answer   
 28.cloud trail    Answer   
-29.nat gatway      Answer   
+**nat gatway    
+Answer**A NAT gateway is a Network Address Translation (NAT) service. You can use a NAT gateway so that instances in a private subnet can connect to services outside your VPC but external services cannot initiate a connection with those instances.   
 **30.code pipeline, multi tenancy, aptcontainer, elasticbean stack and how to access to access other application using iam**
