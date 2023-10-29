@@ -44,9 +44,11 @@ Execute below commands:
 Detach the secondary volume from helper instance.      
 Again attach the volume back to our recovery instance. Start the instance. Terminate the helper instance.   
 Use helper instance pem file to log into recovery instance.   
-**5.Iam ARN Answer:    
-Answer**
-6.different types of EC2 instances Answer:
+**5.Define ARN :    
+Answer**Amazon Resource Names (ARNs) uniquely identify AWS resources. We require an ARN when you need to specify a resource unambiguously across all of AWS, such as in IAM policies, Amazon Relational Database Service (Amazon RDS) tags, and API calls.   
+***arn:partition:service:region:account-id:resource-id
+**6.Different types of EC2 instances   
+Answer:**
 7.DNS vs Gated Answer:
 8.Terminate vs stop in aws Answer:
 9.Cloud watch and SNS
