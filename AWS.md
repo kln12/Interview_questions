@@ -4,7 +4,8 @@ Amazon EFS is an NFS file system service offered by AWS. EFS is the best choice 
 Block storage is just like a hard disk. It get mapped to a physical server (ESXi, Cisco, Dell, Lenevo etc). It can be through FC, iSCSI or FCOE.
 File storage is a storage like shared folder which we can access through IP and save our files and folders. It is of two type NFS and CIFS. NFS is in Unix machine where as CIFS is in Windows      
 **Diff B/W application Load balencer and elastic load balencer   
-Answer:**      
+Answer:** Application Load Balancers support content-based routing and support applications that run in containers. They support a pair of industry-standard protocols (WebSocket and HTTP/2), and also provide additional visibility into the health of the target instances and containers. Websites and mobile apps, running in containers or on EC2 instances, can benefit from the use of Application Load Balancers.   
+An Elastic Load Balancer (ELB) is one of the key architecture components for many applications inside the AWS cloud. In addition to autoscaling, it enables and simplifies one of the most important tasks of our application’s architecture: scaling up and down with high availability.Elastic Load Balancing automatically distributes incoming application traffic across multiple applications, microservices, and containers hosted on Amazon EC2 instances.One of the many advantages of using ELB is the fact that it is elastic (i.e. changeable), which means that it will automatically scale to meet your incoming traffic.   https://cloudacademy.com/blog/application-load-balancer-vs-classic-load-balancer/
 **how to replicate S3 bucket
 Answer:**   
 **4 explain Disastor Recovery(DR) AND types    
