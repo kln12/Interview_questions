@@ -46,11 +46,14 @@ Again attach the volume back to our recovery instance. Start the instance. Termi
 Use helper instance pem file to log into recovery instance.   
 **5.Define ARN :    
 Answer**Amazon Resource Names (ARNs) uniquely identify AWS resources. We require an ARN when you need to specify a resource unambiguously across all of AWS, such as in IAM policies, Amazon Relational Database Service (Amazon RDS) tags, and API calls.   
-***arn:partition:service:region:account-id:resource-id
+***arn:partition:service:region:account-id:resource-id   
 **6.Different types of EC2 instances   
-Answer:**
-7.DNS vs Gated Answer:
-8.Terminate vs stop in aws Answer:
+Answer:**Amazon EC2 provides a wide selection of instance types optimized to fit different use cases. Instance types comprise varying combinations of CPU, memory, storage, and networking capacity and give you the flexibility to choose the appropriate mix of resources for your applications. Each instance type includes one or more instance sizes, allowing you to scale your resources to the requirements of your target workload.  
+1.General Purpose  2.Compute Optimized 3.Memory Optimized 4.Accelerated Computing 5.Storage Optimized   
+**7.DNS vs Gated    
+Answer:**   
+**8.Terminate vs stop in aws    
+Answer:**    
 9.Cloud watch and SNS
 10.private and public subnet
 11.Types of s3     
