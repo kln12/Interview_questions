@@ -31,8 +31,21 @@ AWS Lambda is a compute service that lets you run code without provisioning or m
 **3.cloud application and network load  
 Answer:**   
 **4.if a pem key has lost doesn't have any backup.how to login ec2 server?   
-Answer:** 
-5.Iam ARN Answer:  
+Answer:**  Accessing the EC2 instance even if you loose the pem file is rather easy.   
+First, create a new instance by creating new access file, call it 'helper' instance with same region and VPC as of the lost pem file instance.   
+Now stop the lost pem file instance. Remember not to terminate instance but to stop it.   
+Go to EBS volumes, select the root volume of the lost pem file instance and detach.   
+Now again select the detached volume and this time you have to attach this volume to helper instance which we created before. Since helper instance already has a root volume by default as /dev/sda1, the newly attached volume will be secondary(eg: /dev/sdf).   
+Login to your helper instance with its pem file.   
+Execute below commands:   
+# mount /dev/xvdf1 /mnt   
+# cp /root/.ssh/authorized_keys /mnt/root/.ssh/   
+# umount /mnt   
+Detach the secondary volume from helper instance.      
+Again attach the volume back to our recovery instance. Start the instance. Terminate the helper instance.   
+Use helper instance pem file to log into recovery instance.   
+**5.Iam ARN Answer:    
+Answer**
 6.different types of EC2 instances Answer:
 7.DNS vs Gated Answer:
 8.Terminate vs stop in aws Answer:
