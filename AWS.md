@@ -1,5 +1,8 @@
 **Diff b/w EFS and EBS  
-Answer:**  
+Answer:** Both of these are AWS Storage services, Amazon EBS is the block storage offered on AWS. An Amazon EBS volume is a persistent storage device that can be used as a file system for databases, application hosting and storage, and plug and play devices. Volumes get automatically replicated within Availability Zones for high availability and durability.   
+Amazon EFS is an NFS file system service offered by AWS. EFS is the best choice for running any application that has a high workload, requires scalable storage, and must produce output quickly. It scales automatically, even to meet the most abrupt workload spikes. After the period of high-volume storage, demand has passed, EFS will automatically scale back down. File storage is a storage like shared folder which we can access through IP and save our files and folders. It is of two type NFS and CIFS. NFS is in Unix machine where as CIFS is in Windows.   
+Block storage is just like a hard disk. It get mapped to a physical server (ESXi, Cisco, Dell, Lenevo etc). It can be through FC, iSCSI or FCOE.
+File storage is a storage like shared folder which we can access through IP and save our files and folders. It is of two type NFS and CIFS. NFS is in Unix machine where as CIFS is in Windows      
 **Diff B/W application Load balencer and elastic load balencer   
 Answer:**      
 **how to replicate S3 bucket
