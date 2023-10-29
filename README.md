@@ -5,9 +5,16 @@
 3.Explain about gitlab runnersand types  
 4. Git pull vs git fetch   
 5. Define Git stash  
-6. How to 20 commits into a single commit   
+6. How to 20 commits into a single commit  && Command to list all commits?  
 7. what is git tag 
 8.What is git rebase 
+9.What is git-cherry-pick? why we use it?  
+10.What is a conflict in git?  
+11.What is git reset ? Types of reset ?  
+12.what is the importance .git directory?  
+13.What PR (Pull request) is? whats the importance of PR?  
+What is git squash?  
+Branching strategy?  
 
 
 # Jenkins
@@ -15,9 +22,17 @@
 2.Jenkins pipeline, we have 10 stages in the stage 5 is failed but we need pass to stage 4 to stage 6. 
 3.mvn clean install vs mvn clean deploy   
 4.mvn stages    
-5.jenkins shared library    
+5.What is shared library in jenkins?   
 6. in production ,if plugins are installed and the process doesn't restart in production    
-
+Why we need multi branch pipeline?
+How can you copy job from your local jenkins instance to other local jenkins instance?  
+Can you list few ways by which we can trigger our build in Jenkins? What is the difference between Build Periodically and Poll SCM?  
+What are multi branch pipeline?  
+What are active and reactive parameters (Dynamic parameterization) in Jenkins ?  
+How to set Jenkins build to fail based specific word in console output ?  
+what is the need of CICD tools?  
+What type of Jenkinsfile you have worked on?  
+Can we have job for pr and once merge is done the source branch should be deleted?  
 
 
 
@@ -29,8 +44,13 @@
 4. CMD vs RUN  
 5.Entrypoint vs 
 5.where docker container are stored  
-6.in docker (. dot ) in docker build and what can if we remove  
-
+6.in docker (. dot ) in docker build and what can if we remove    
+Difference between docker stop and docker kill?
+What version of docker you have used? Speciic reason to use that particular version?  
+Can we have multiple CMD in Dockerfile?  
+What is the difference between ADD and COPY docker instructions in Dockerfile?  
+Types of network in docker? if you dont specify network to deploy on which network the conatiner will be created?  
+Explain a sample dockerfile that you have used in your project?  
 
 
 
@@ -42,8 +62,19 @@
 3. How to troubleshoot the pod, if issue occur after 6 month  
 4.how to stop pods on particular node  
 5.if one node is down and how to pods are shedule to other nodes  
-
-
+Can we have multiple conatiners in a pod? Can we have similar conatiners in a pod? Lets say i have 4 conatiners, one of them has failed how would you check which container has failed?  
+What is liveness and readiness probe? Why we need them?  
+Can we deploy a pod on particular node?  
+what is init container and side-car container?can you give simple scenario where we use these conatiners?  
+command to check the container logs in pod?  
+what are the types of services present in kubernetes?  
+List objects you know in kubernetes?Give a brief about each object?  
+Command to list pods and deployments  
+Components in kubernetes architecture?  
+What are stateful sets in kuberentes?  
+Why config maps are used  
+Why config maps are used  
+what are operators and give one example where we can use operator?
 
 
 
@@ -53,6 +84,15 @@
  3.how to check the connections are going  
  4. what is the default permission of linux system   
  5.how to knwo the ip address  
+ write a script which accepts file or folder, if its folder delete it else print "this is a file"?  
+ Commands you will use it for configuring ssh connectivity between 2 machines and what files will be present in .ssh folder?  
+How to schedule a shell script in unix machines?  
+Need to identify ip addresses in log file and count of ip addresses in log file?  
+what is command for checking the running process? how to get PID of process?  
+what is command for checking the running process? how to get PID of process?  
+How to indentify the number of params that has been sent to shell script?  
+is it possible to store a commands output, either success or failure to the same file?  
+In shell script can we supply parameters to functions?  
 
 
 # AWS
@@ -92,6 +132,11 @@
 28.cloud trail  
 29.nat gatway  
 30.code pipeline, multi tenancy, aptcontainer, elasticbean stack and how to access to access other application using iam
+Services used AWS and tasks performed in AWS
+I have 3 tier application, configure it with private and public subnet?
+How to replicate or create same machine with same configuration?
+How to replicate or create same machine with same configuration?
+
 
 
 
@@ -103,7 +148,9 @@
 1.How do you Scrape the application data using Prometheus They shared the Grafana Dashboard, asked me few scenario based questions like what is your obeservations on this dashboard is there anything you can see critical based on dashboard is application health ok how do you create alerts based on this dashboard> 
 1.how to configure the datebase frontend and backend 
 3.How to define Alert manager in grafana  
-4.define prometheus 
+4.define prometheus  
+how do we configure endpoint in promethus to scrape the data?
+
 
 #Define CI/CD  
 #Define Monolithic vs microservises
