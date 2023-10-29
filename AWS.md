@@ -38,9 +38,9 @@ Go to EBS volumes, select the root volume of the lost pem file instance and deta
 Now again select the detached volume and this time you have to attach this volume to helper instance which we created before. Since helper instance already has a root volume by default as /dev/sda1, the newly attached volume will be secondary(eg: /dev/sdf).   
 Login to your helper instance with its pem file.   
 Execute below commands:   
-# mount /dev/xvdf1 /mnt   
-# cp /root/.ssh/authorized_keys /mnt/root/.ssh/   
-# umount /mnt   
+** mount /dev/xvdf1 /mnt   ##
+** cp /root/.ssh/authorized_keys /mnt/root/.ssh/   
+** umount /mnt   
 Detach the secondary volume from helper instance.      
 Again attach the volume back to our recovery instance. Start the instance. Terminate the helper instance.   
 Use helper instance pem file to log into recovery instance.   
