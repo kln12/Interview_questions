@@ -1,4 +1,4 @@
-**# Interview_questions
+# Interview_questions
 # GIT
 1.How to change commit name.  
 2.git actions default action   
