@@ -40,7 +40,13 @@ Execute the following:
 
 **10.What is a conflict in git?    
 Answer**  Conflicts generally arise when two people have changed the same lines in a file, or if one developer deleted a file while another developer was modifying it. In these cases, Git cannot automatically determine what is correct. Conflicts only affect the developer conducting the merge, the rest of the team is unaware of the conflict. Git will mark the file as being conflicted and halt the merging process. It is then the developers' responsibility to resolve the conflict.  
-**11.What is git reset ? Types of reset ?   Answer**   
+**11.What is git reset ? Types of reset ?  
+Answer**   While Git reset is a powerful tool for managing your repository's history, it's important to differentiate it from other Git commands  
+https://marketsplash.com/tutorials/git/git-reset/  
+1.Soft Reset (git reset --soft):  
+2. Mixed Reset (git reset or git reset --mixed):  
+3. Hard Reset (git reset --hard):  
+
 **12.what is the importance .git directory?    
 Answer**   The .git directory in a Git repository is a critically important component of the repository's structure. It contains all the information and metadata that Git needs to manage the repository, track changes, and facilitate version control.  
 **13.What PR (Pull request) is? whats the importance of PR?  
