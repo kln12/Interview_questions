@@ -131,11 +131,11 @@
 27.FTP Commands  
 28.cloud trail  
 29.nat gatway  
-30.code pipeline, multi tenancy, aptcontainer, elasticbean stack and how to access to access other application using iam
-31.Services used AWS and tasks performed in AWS
-32.I have 3 tier application, configure it with private and public subnet?
-33.How to replicate or create same machine with same configuration?
-34.How to replicate or create same machine with same configuration?
+30.code pipeline, multi tenancy, aptcontainer, elasticbean stack and how to access to access other application using iam  
+31.Services used AWS and tasks performed in AWS  
+32.I have 3 tier application, configure it with private and public subnet?  
+33.How to replicate or create same machine with same configuration?  
+34.How to replicate or create same machine with same configuration?  
 
 
 
