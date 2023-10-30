@@ -81,7 +81,7 @@ Answer**
 **What is VPC endpoints     
 Answer** A VPC endpoint enables customers to privately connect to supported AWS services and VPC endpoint services powered by AWS PrivateLink. Amazon VPC instances do not require public IP addresses to communicate with resources of the service. Traffic between an Amazon VPC and a service does not leave the Amazon network   
 **26.Versionind in s3    Answer**   
-**27.FTP Commands    Answer**     
+**27. FTP    Answer**     
 **28.cloud trail    Answer**      
 **nat gatway    
 Answer**A NAT gateway is a Network Address Translation (NAT) service. You can use a NAT gateway so that instances in a private subnet can connect to services outside your VPC but external services cannot initiate a connection with those instances.   
@@ -89,31 +89,31 @@ Answer**A NAT gateway is a Network Address Translation (NAT) service. You can us
 **31.Services used AWS and tasks performed in AWS         
 Answer**  Familiarize Yourself with AWS Services:
 AWS offers a wide range of services. You should be comfortable discussing the following, at a minimum:
-**Compute Services**: EC2 (Elastic Compute Cloud), Lambda, ECS.
-**Storage Services**: S3 (Simple Storage Service), EBS (Elastic Block Store).
-**Database Services**: RDS (Relational Database Service), DynamoDB.
-**Networking Services**: VPC, Route 53, CloudFront.
-**Serverless Services**: AWS Lambda.
-**Container Services**: Amazon ECS, EKS.
-**Security and Identity Services**: IAM (Identity and Access Management), Security Groups, NACLs, and Web Application Firewall (WAF).
-**Monitoring and Logging Services**: CloudWatch and CloudTrail.
+**Compute Services**: EC2 (Elastic Compute Cloud), Lambda, ECS.   
+**Storage Services**: S3 (Simple Storage Service), EBS (Elastic Block Store).   
+**Database Services**: RDS (Relational Database Service), DynamoDB.   
+**Networking Services**: VPC, Route 53, CloudFront.   
+**Serverless Services**: AWS Lambda.   
+**Container Services**: Amazon ECS, EKS.   
+**Security and Identity Services**: IAM (Identity and Access Management), Security Groups, NACLs, and Web Application Firewall (WAF).   
+**Monitoring and Logging Services**: CloudWatch and CloudTrail.   
 **Deployment and Orchestration**: Elastic Beanstalk, CloudFormation.   
 **32.I have 3 tier application, configure it with private and public subnet?      
-Answer**   Sign in to AWS Console:
+Answer**   Sign in to AWS Console:   
 Sign in to your AWS account to create and configure your infrastructure.   
-Create VPC:
+Create VPC:   
 Start by creating a Virtual Private Cloud (VPC), which will serve as your network environment.
 Create Subnets:
 You'll need at least two types of subnets: public and private.
 Public Subnets: These are usually associated with the web tier and allow inbound and outbound internet traffic. To create a public subnet, choose the "Create subnet" option within your VPC, and ensure that you disable the option to disable auto-assign public IPv4 addresses.
 Private Subnets: These are generally associated with your application and database tiers, which shouldn't have direct internet access. To create a private subnet, disable the option to auto-assign public IPv4 addresses.
-Route Tables:
+Route Tables:   
 Create two route tables - one for the public subnets and another for the private subnets. The public route table should have a route to the internet gateway for 0.0.0.0/0, while the private route table doesn't require an internet gateway route.
 Internet Gateway:
 Create an Internet Gateway and attach it to your VPC. This allows resources in the public subnets to access the internet.
 Security Groups:
 Define security groups for each tier to control inbound and outbound traffic.
-Launch Instances:
+Launch Instances:   
 Launch your instances in the appropriate subnets.
 Web Tier: Instances in the public subnet. These could be your web servers.
 Application Tier: Instances in the private subnet, allowing traffic only from the web tier.
