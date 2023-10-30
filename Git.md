@@ -12,8 +12,17 @@ Answer:  git stash temporarily shelves (or stashes) changes you've made to your 
 **6. How to 20 commits into a single commit **  
 Answer:    
 **7. what is git tag**  
-**Answer:** Tags are ref's that point to specific points in Git history. Tagging is generally used to capture a point in history that is used for a marked version release (i.e. v1.0.1). A tag is like a branch that doesn’t change. Unlike branches, tags, after being created, have no further history of commits.**git tag <tagname>**  
+**Answer:** Tags are ref's that point to specific points in Git history. Tagging is generally used to capture a point in history that is used for a marked version release (i.e. v1.0.1). A tag is like a branch that doesn’t change. Unlike branches, tags, after being created, have no further history of commits.  
+ 
+ **git tag <tagname>**  
 
 **8.what is git rebase?  
-Answer:** Rebasing is the process of moving or combining a sequence of commits to a new base commit. Rebasing is most useful and easily visualized in the context of a feature branching workflow.**git rebase <base>**
-
+Answer:** Rebasing is the process of moving or combining a sequence of commits to a new base commit. Rebasing is most useful and easily visualized in the context of a feature branching workflow.   
+**git rebase <base>**   
+**9.What is git-cherry-pick? why we use it?   Answer**   
+**10.What is a conflict in git?   Answer**   
+**11.What is git reset ? Types of reset ?   Answer**   
+**12.what is the importance .git directory?   Answer**   
+**13.What PR (Pull request) is? whats the importance of PR?   Answer** 
+**14.What is git squash?   Answer**
+**15.Branching strategy?   Answer**
