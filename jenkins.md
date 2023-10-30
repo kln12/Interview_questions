@@ -6,9 +6,9 @@ Answer:**
 **3.mvn clean install vs mvn clean deploy   
 Answer:**
 **4.mvn stages
-Answer:**
+Answer:**    
 **5.jenkins shared library   
-Answer:**A Jenkins Shared Library is a reusable collection of Groovy code and resources that enables organizations to centralize and standardize their Jenkins pipeline logic. It serves as a way to share common functions, steps, and best practices across multiple Jenkins pipelines. By defining and maintaining shared libraries, teams can improve code quality, reduce duplication, and simplify pipeline management. These libraries are typically stored in version control repositories, making it easy to update and share changes across Jenkins pipelines. Jenkins Shared Libraries promote collaboration and consistency in Continuous Integration and Continuous Delivery (CI/CD) processes, ultimately streamlining the development and automation of software projects.
+Answer:** A Jenkins Shared Library is a reusable collection of Groovy code and resources that enables organizations to centralize and standardize their Jenkins pipeline logic. It serves as a way to share common functions, steps, and best practices across multiple Jenkins pipelines. By defining and maintaining shared libraries, teams can improve code quality, reduce duplication, and simplify pipeline management. These libraries are typically stored in version control repositories, making it easy to update and share changes across Jenkins pipelines. Jenkins Shared Libraries promote collaboration and consistency in Continuous Integration and Continuous Delivery (CI/CD) processes, ultimately streamlining the development and automation of software projects.
 **6. in production ,if plugins are installed and the process doesn't restart in production   
 Answer:**
 **7.Why we need multi branch pipeline?    
