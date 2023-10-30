@@ -8,3 +8,27 @@ Answer:**
 Answer:**   
 **5.if one node is down and how to pods are shedule to other nodes    
 Answer:**   
+**6.Can we have multiple conatiners in a pod? Can we have similar conatiners in a pod? Lets say i have 4 conatiners, one of them has failed how would you check which container has failed?   
+Answer**
+**7.What is liveness and readiness probe? Why we need them?   
+Answer**
+**8.Can we deploy a pod on particular node?   
+Answer**
+**9.what is init container and side-car container?can you give simple scenario where we use these conatiners?   
+Answer**
+**10.command to check the container logs in pod?   
+Answer**
+**11.what are the types of services present in kubernetes?   
+Answer**
+**12.List objects you know in kubernetes?Give a brief about each object?   
+Answer**
+**13.Command to list pods and deployments   
+Answer**
+**14.Components in kubernetes architecture?   
+Answer**
+**15.What are stateful sets in kuberentes?   
+Answer**
+**16.Why config maps are used   
+Answer**
+17.Why config maps are used
+18.what are operators and give one example where we can use operator?
