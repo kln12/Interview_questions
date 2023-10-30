@@ -16,4 +16,13 @@ ENTRYPOINT is also closely related to CMD and can modify the way a CMD is interp
 Answer:** In Docker, the dot (.) in the docker build command represents the build context, which is the directory on your host machine where the Dockerfile and any additional files required for the build are located."docker build -t <image-name> <build-context>"   
  if your Dockerfile and other build-related files are located in the current directory (the directory you are in when you run the command), you can specify the build context as .:docker build -t my-image .   
  If you remove the dot (.) and do not specify a build context, Docker will assume the current directory as the default build context. So, if you're already in the directory containing the Dockerfile and other necessary files, "docker build -t my-image"   
-
+**7.Difference between docker stop and docker kill? 8.What version of docker you have used? Speciic reason to use that particular version?  
+Answer**
+**9.Can we have multiple CMD in Dockerfile?  
+Answer**
+**10.What is the difference between ADD and COPY docker instructions in Dockerfile?  
+Answer**
+**11.Types of network in docker? if you dont specify network to deploy on which network the conatiner will be created?  
+Answer**
+**12.Explain a sample dockerfile that you have used in your project?  
+Answer**
