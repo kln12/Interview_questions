@@ -37,16 +37,25 @@ Answer:**
 **5.jenkins shared library   
 Answer:** A Jenkins Shared Library is a reusable collection of Groovy code and resources that enables organizations to centralize and standardize their Jenkins pipeline logic. It serves as a way to share common functions, steps, and best practices across multiple Jenkins pipelines. By defining and maintaining shared libraries, teams can improve code quality, reduce duplication, and simplify pipeline management. These libraries are typically stored in version control repositories, making it easy to update and share changes across Jenkins pipelines. Jenkins Shared Libraries promote collaboration and consistency in Continuous Integration and Continuous Delivery (CI/CD) processes, ultimately streamlining the development and automation of software projects.    
 
-**6. in production ,if plugins are installed and the process doesn't restart in production   
+**6. in production ,if plugins are installed and the process need to safe restart in production   
 Answer:**    
 
 **7.Why we need multi branch pipeline?    
 Answer**    Multi-branch pipelines in Jenkins provide significant benefits for organizations and development teams, primarily for managing and automating Continuous Integration (CI) and Continuous Delivery (CD) workflows in software development. These pipelines are designed to work with repositories containing multiple branches and pull requests.    
-Automated Branch Management,    Efficient Resource Utilization,    Parallel Processing,    Easy Scalability,    Branch Isolation,    Comprehensive Testing:     
+Automated Branch Management,    Efficient Resource Utilization,    Parallel Processing,    Easy Scalability,    Branch Isolation,    Comprehensive Testing     
 **8.How can you copy job from your local jenkins instance to other local jenkins instance?   
-Answer**
+Answer** https://wiki.jenkins-ci.org/display/JENKINS/Administering+Jenkins     
+
 **9.Can you list few ways by which we can trigger our build in Jenkins? What is the difference between Build Periodically and Poll SCM?   
-Answer**
+Answer** Build Periodically:     
+It triggers builds at specific times or on a regular schedule defined using a cron-like syntax.     
+Useful for running builds at predetermined intervals, such as nightly builds, weekly builds, etc.     
+Builds are initiated even if there are no code changes, which can lead to unnecessary builds.     
+Poll SCM:     
+It periodically checks the version control system (e.g., Git, SVN) for code changes and triggers a build when changes are detected.     
+Useful when you want builds to be triggered only when there are code changes, reducing unnecessary build runs.     
+It's more efficient than "Build Periodically" in terms of resource usage, as it doesn't trigger builds unless there are changes.     
+
 **10.What are multi branch pipeline?   
 Answer** https://devopscube.com/jenkins-multibranch-pipeline-tutorial/     
 **11.What are active and reactive parameters (Dynamic parameterization) in Jenkins ?   
