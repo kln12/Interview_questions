@@ -85,4 +85,12 @@ Answer** A VPC endpoint enables customers to privately connect to supported AWS 
 28.cloud trail    Answer   
 **nat gatway    
 Answer**A NAT gateway is a Network Address Translation (NAT) service. You can use a NAT gateway so that instances in a private subnet can connect to services outside your VPC but external services cannot initiate a connection with those instances.   
-**30.code pipeline, multi tenancy, aptcontainer, elasticbean stack and how to access to access other application using iam**
+**30.code pipeline, multi tenancy, aptcontainer, elasticbean stack and how to access to access other application using iam**     
+**31.Services used AWS and tasks performed in AWS         
+Answer**
+**32.I have 3 tier application, configure it with private and public subnet?      
+Answer**
+**33.How to replicate or create same machine with same configuration?    
+Answer**
+**34.How to replicate or create same machine with same configuration?    
+Answer**
