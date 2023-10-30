@@ -25,4 +25,5 @@ Answer:** Rebasing is the process of moving or combining a sequence of commits t
 **12.what is the importance .git directory?   Answer**   
 **13.What PR (Pull request) is? whats the importance of PR?   Answer** 
 **14.What is git squash?   Answer**
-**15.Branching strategy?   Answer**
+**15.Branching strategy?   
+Answer** https://www.bmc.com/blogs/devops-branching-strategies/ 
