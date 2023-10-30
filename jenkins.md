@@ -8,19 +8,30 @@ Answer:**
 **4.mvn stages
 Answer:**
 **5.jenkins shared library   
-Answer:**
+Answer:**A Jenkins Shared Library is a reusable collection of Groovy code and resources that enables organizations to centralize and standardize their Jenkins pipeline logic. It serves as a way to share common functions, steps, and best practices across multiple Jenkins pipelines. By defining and maintaining shared libraries, teams can improve code quality, reduce duplication, and simplify pipeline management. These libraries are typically stored in version control repositories, making it easy to update and share changes across Jenkins pipelines. Jenkins Shared Libraries promote collaboration and consistency in Continuous Integration and Continuous Delivery (CI/CD) processes, ultimately streamlining the development and automation of software projects.
 **6. in production ,if plugins are installed and the process doesn't restart in production   
 Answer:**
-**7.Why we need multi branch pipeline? 8.How can you copy job from your local jenkins instance to other local jenkins instance?   
+**7.Why we need multi branch pipeline?    
+Answer**    Multi-branch pipelines in Jenkins provide significant benefits for organizations and development teams, primarily for managing and automating Continuous Integration (CI) and Continuous Delivery (CD) workflows in software development. These pipelines are designed to work with repositories containing multiple branches and pull requests.    
+Automated Branch Management,    Efficient Resource Utilization,    Parallel Processing,    Easy Scalability,    Branch Isolation,    Comprehensive Testing: 
+**8.How can you copy job from your local jenkins instance to other local jenkins instance?   
 Answer**
 **9.Can you list few ways by which we can trigger our build in Jenkins? What is the difference between Build Periodically and Poll SCM?   
 Answer**
 **10.What are multi branch pipeline?   
-Answer**
+Answer** https://devopscube.com/jenkins-multibranch-pipeline-tutorial/     
 **11.What are active and reactive parameters (Dynamic parameterization) in Jenkins ?   
-Answer**
+Answer**Active Choices Parameter:    
+An Active Choices parameter dynamically generates a list of value options for a build parameter using a Groovy script or a script from the Scriptler catalog.
+Active Choices Reactive Parameter:    
+An Active Choices Reactive Parameter can generate the same set of value options as the Active choice parameter; in addition to that, it can be dynamically updated with the values based on the selection in some other build parameter that was referred to in the Active choices reactive parameter.
+
 **12.How to set Jenkins build to fail based specific word in console output ?   
-Answer**
+Answer**We can set up Jenkins to fail a build based on a specific word or phrase in the console output using the "Text Finder" or "Text Finder Post-Processor" plugin    You can either create a new Jenkins job or modify an existing one. In your job configuration, make sure you have the necessary build steps configured, and you are capturing the console output.    
+To fail the build based on specific text in the console output, add a post-build action to your job:
+
+In the job configuration, scroll down to the "Post-build Actions" section.
+Click on "Add post-build action" and select "Text Finder" or "Text Finder Post-Processor" depending on which one you've installed.
 **13.what is the need of CICD tools?   
 Answer**
 **14.What type of Jenkinsfile you have worked on?   
