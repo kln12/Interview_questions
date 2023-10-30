@@ -81,16 +81,71 @@ Answer**
 **What is VPC endpoints     
 Answer** A VPC endpoint enables customers to privately connect to supported AWS services and VPC endpoint services powered by AWS PrivateLink. Amazon VPC instances do not require public IP addresses to communicate with resources of the service. Traffic between an Amazon VPC and a service does not leave the Amazon network   
 **26.Versionind in s3    Answer**   
-27.FTP Commands    Answer   
-28.cloud trail    Answer   
+**27.FTP Commands    Answer**     
+**28.cloud trail    Answer**      
 **nat gatway    
 Answer**A NAT gateway is a Network Address Translation (NAT) service. You can use a NAT gateway so that instances in a private subnet can connect to services outside your VPC but external services cannot initiate a connection with those instances.   
 **30.code pipeline, multi tenancy, aptcontainer, elasticbean stack and how to access to access other application using iam**     
 **31.Services used AWS and tasks performed in AWS         
-Answer**
+Answer**  Familiarize Yourself with AWS Services:
+AWS offers a wide range of services. You should be comfortable discussing the following, at a minimum:
+**Compute Services**: EC2 (Elastic Compute Cloud), Lambda, ECS.
+**Storage Services**: S3 (Simple Storage Service), EBS (Elastic Block Store).
+**Database Services**: RDS (Relational Database Service), DynamoDB.
+**Networking Services**: VPC, Route 53, CloudFront.
+**Serverless Services**: AWS Lambda.
+**Container Services**: Amazon ECS, EKS.
+**Security and Identity Services**: IAM (Identity and Access Management), Security Groups, NACLs, and Web Application Firewall (WAF).
+**Monitoring and Logging Services**: CloudWatch and CloudTrail.
+**Deployment and Orchestration**: Elastic Beanstalk, CloudFormation.   
 **32.I have 3 tier application, configure it with private and public subnet?      
-Answer**
+Answer**   Sign in to AWS Console:
+Sign in to your AWS account to create and configure your infrastructure.   
+Create VPC:
+Start by creating a Virtual Private Cloud (VPC), which will serve as your network environment.
+Create Subnets:
+You'll need at least two types of subnets: public and private.
+Public Subnets: These are usually associated with the web tier and allow inbound and outbound internet traffic. To create a public subnet, choose the "Create subnet" option within your VPC, and ensure that you disable the option to disable auto-assign public IPv4 addresses.
+Private Subnets: These are generally associated with your application and database tiers, which shouldn't have direct internet access. To create a private subnet, disable the option to auto-assign public IPv4 addresses.
+Route Tables:
+Create two route tables - one for the public subnets and another for the private subnets. The public route table should have a route to the internet gateway for 0.0.0.0/0, while the private route table doesn't require an internet gateway route.
+Internet Gateway:
+Create an Internet Gateway and attach it to your VPC. This allows resources in the public subnets to access the internet.
+Security Groups:
+Define security groups for each tier to control inbound and outbound traffic.
+Launch Instances:
+Launch your instances in the appropriate subnets.
+Web Tier: Instances in the public subnet. These could be your web servers.
+Application Tier: Instances in the private subnet, allowing traffic only from the web tier.
+Database Tier: Instances in a different private subnet, only allowing traffic from the application tier.
+Load Balancer (Optional):
+If you have a multi-instance setup in the web tier, you can set up a load balancer to distribute traffic among them.
+Database Setup:
+Install and configure your database server(s) in the database tier subnet. Make sure the security group only allows traffic from the application tier.
+Configuration:
+Configure your application servers to connect to the database servers using private IPs. Update any security groups to allow necessary communication.
+Testing:
+Test your setup to ensure that it's working as expected. Try accessing the application from the internet to confirm that the web tier is correctly configured.
+Monitoring and Scaling:
+Set up monitoring and scaling policies as per your requirements to ensure your application can handle varying loads.   
 **33.How to replicate or create same machine with same configuration?    
 Answer**
-**34.How to replicate or create same machine with same configuration?    
-Answer**
+Create an AMI from the Source Machine:
+First, create an Amazon Machine Image (AMI) from your source machine. An AMI is a snapshot of your machine's root volume, and it includes the configuration and data.
+Sign in to your AWS Management Console.   
+Navigate to the EC2 Dashboard.
+In the navigation pane, choose "Instances."   
+Select the instance you want to replicate.   
+Right-click on the instance, choose "Image," and then "Create Image."   
+Provide a name and description for your AMI, and click "Create Image." This will initiate the AMI creation process.   
+Launch a New Instance from the AMI:   
+Once your AMI is created, you can launch new instances with the same configuration.
+In the EC2 Dashboard, click "AMIs" in the navigation pane to find your newly created AMI.
+Select the AMI and click "Launch."   
+Follow the instance creation wizard, specifying the instance type, networking, and other settings.
+When configuring the security groups and key pairs, make sure to choose the appropriate options for your new instance.
+Review and Launch:
+Review your settings and configurations, and click "Launch."
+Access the New Instance:
+Once the new instance is running, you can access it using the same methods as your source machine. This includes SSH for Linux instances or Remote Desktop for Windows instances.     
+
