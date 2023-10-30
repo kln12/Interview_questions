@@ -28,30 +28,30 @@ Answer**
 **15.Can we have job for pr and once merge is done the source branch should be deleted?   
 Answer**Yes, you can set up a Jenkins job to perform tasks like PR (Pull Request) validation and branch deletion once the merge is done. To achieve this, you will need to use a combination of Jenkins plugins and pipeline scripting.    
 Install Required Plugins:GitHub Integration Plugin,Pipeline Plugin   
-pipeline {
-    agent any
-    stages {
-        stage('Checkout') {
-            steps {
-                // Checkout the code from the PR branch
+pipeline {    
+    agent any    
+    stages {    
+        stage('Checkout') {    
+            steps {    
+                // Checkout the code from the PR branch    
                 checkout([$class: 'GitSCM', branches: [[name: 'origin/${CHANGE_BRANCH}']], userRemoteConfigs: [[url: 'https://github.com/your/repo.git']]])
-            }
-        }
-        stage('PR Validation') {
-            steps {
-                // Add steps for PR validation (e.g., build, test, and other checks)
-            }
-        }
-        stage('Merge and Delete') {
-            when {
-                // This stage will run only if the PR is merged
-                expression { currentBuild.rawBuild.resultIsBetterOrEqualTo('SUCCESS') }
-            }
-            steps {
-                // Merge the PR (e.g., using GitHub API or git command)
-                // Delete the source branch
-            }
-        }
-    }
-}
+            }    
+        }    
+        stage('PR Validation') {    
+            steps {    
+                // Add steps for PR validation (e.g., build, test, and other checks)    
+            }    
+        }    
+        stage('Merge and Delete') {    
+            when {    
+                // This stage will run only if the PR is merged    
+                expression { currentBuild.rawBuild.resultIsBetterOrEqualTo('SUCCESS') }    
+            }    
+            steps {    
+                // Merge the PR (e.g., using GitHub API or git command)    
+                // Delete the source branch    
+            }    
+        }    
+    }    
+}    
 When a PR is created or updated in your GitHub repository, the webhook will trigger the Jenkins job. If the PR validation is successful, the "Merge and Delete" stage will execute, merging the PR and deleting the source branch.  
