@@ -52,7 +52,7 @@ Open your crontab file for editing by running the following command:
 This command will open your user's crontab file in a text editor.  
 
 Add an entry to the crontab file specifying when and how often you want your script to run. The format of a cron job entry is as follows:  
-* * * * * /path/to/your/script.sh  
+""* * * * * ""/path/to/your/script.sh  
 | | | | |  
 | | | | +----- Day of the week (0 - 6) (Sunday is 0)  
 | | | +------- Month (1 - 12)  
