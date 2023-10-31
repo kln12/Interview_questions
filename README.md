@@ -33,6 +33,8 @@
 13.what is the need of CICD tools?  
 14.What type of Jenkinsfile you have worked on?  
 15.Can we have job for pr and once merge is done the source branch should be deleted?  
+16.explain jenkins master-slave architexture?  
+17.what are the plugins used in jenkins  
 
 
 
@@ -51,6 +53,7 @@
 10.What is the difference between ADD and COPY docker instructions in Dockerfile?  
 11.Types of network in docker? if you dont specify network to deploy on which network the conatiner will be created?  
 12.Explain a sample dockerfile that you have used in your project?  
+13.How to check Docker Version  
 
 
 
@@ -74,7 +77,8 @@
 15.What are stateful sets in kuberentes?  
 16.Why config maps are used  
 17.Why config maps are used  
-18.what are operators and give one example where we can use operator?
+18.what are operators and give one example where we can use operator?  
+19.What is a mesh?
 
 
 
@@ -137,7 +141,10 @@
 33.How to replicate or create same machine with same configuration?  
 34.How to replicate or create same machine with same configuration?  
 
-
+# Terraform 
+1.Define statefile 
+2.write the samele S3 resource file  
+3.
 
 
 
@@ -149,7 +156,8 @@
 1.how to configure the datebase frontend and backend 
 3.How to define Alert manager in grafana  
 4.define prometheus  
-5.how do we configure endpoint in promethus to scrape the data?
+5.how do we configure endpoint in promethus to scrape the data?  
+6. What  APM in Datadog  
 
 
 #Define CI/CD  
