@@ -105,3 +105,7 @@ pipeline {
     }    
 }    
 When a PR is created or updated in your GitHub repository, the webhook will trigger the Jenkins job. If the PR validation is successful, the "Merge and Delete" stage will execute, merging the PR and deleting the source branch.  
+**16.explain jenkins master-slave architexture?     
+Answer** https://blog.knoldus.com/master-slave-architecture-of-jenkins-and-its-working/     
+**17.what are the plugins used in jenkins      
+Answer**https://spectralops.io/blog/top-25-jenkins-plugins-for-2021/
