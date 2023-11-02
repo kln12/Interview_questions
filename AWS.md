@@ -80,9 +80,16 @@ Answer**
 24.ebs volume types    Answer   
 **What is VPC endpoints     
 Answer** A VPC endpoint enables customers to privately connect to supported AWS services and VPC endpoint services powered by AWS PrivateLink. Amazon VPC instances do not require public IP addresses to communicate with resources of the service. Traffic between an Amazon VPC and a service does not leave the Amazon network   
-**26.Versionind in s3    Answer**   
+
 **27. FTP    Answer**     
-**28.cloud trail    Answer**      
+FTP stands for "File Transfer Protocol," and it is a standard network protocol used for the transfer of files from one host to another over a TCP-based network, typically the internet. Here's a brief overview of FTP:  SFTP and FTPS are two secure file transfer protocols that address the security shortcomings of the traditional FTP (File Transfer Protocol). They are designed to encrypt data during transmission and provide authentication methods for secure file transfers. Here's an overview of both protocols:  
+SFTP (SSH File Transfer Protocol):Security Layer: SFTP is an extension of the SSH (Secure Shell) protocol. It secures data transmission by encrypting both the control (command) and data channels, making it resistant to eavesdropping and data tampering.   
+FTPS (FTP Secure):Security Layer: FTPS is an extension of FTP, and it adds a security layer through Transport Layer Security (TLS) or Secure Sockets Layer (SSL) encryption. It can operate in two modes: Explicit FTPS and Implicit FTPS.   
+
+**28.cloud trail       
+Answer** CloudTrail is a service provided by Amazon Web Services (AWS) that helps you monitor and log actions taken in your AWS account. It records information about every API call made on your AWS account, capturing details about who made the call, what action was taken, and when it occurred  
+To use CloudTrail, you need to create a trail, which specifies the settings for logging and storing the recorded events. You can then monitor, analyze, and respond to events based on the data captured in CloudTrail logs   
+
 **nat gatway    
 Answer**A NAT gateway is a Network Address Translation (NAT) service. You can use a NAT gateway so that instances in a private subnet can connect to services outside your VPC but external services cannot initiate a connection with those instances.   
 **30.code pipeline, multi tenancy, aptcontainer, elasticbean stack and how to access to access other application using iam**     
