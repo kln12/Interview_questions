@@ -25,9 +25,12 @@ Init containers run and exit before your main application starts
 Sidecars run side-by-side with your main container(s) and provide some kind of service for them.      
 
 **10.command to check the container logs in pod?   
-Answer**
+Answer**$ kubectl logs <pod-name> -c <container-name>   
+ we can use the –tail option to fetch only the latest logs.   
+ $ kubectl logs <pod-name> -c <container-name> --tail=<number-of-lines>   
+ 
 **11.what are the types of services present in kubernetes?   
-Answer**
+Answer** https://www.vmware.com/topics/glossary/content/kubernetes-services.html   
 **12.List objects you know in kubernetes?Give a brief about each object?   
 Answer**
 **13.Command to list pods and deployments   
@@ -43,4 +46,5 @@ Answer**A configMap is an API object used to store non-confidential data in key-
 applications are easily portable.   
 Note: It doesn't provide secrecy or encryption.   
 
-**17.what are operators and give one example where we can use operator? Answer**
+**17.what are operators and give one example where we can use operator?   
+Answer**https://www.cncf.io/blog/2022/06/15/kubernetes-operators-what-are-they-some-examples/
