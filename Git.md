@@ -48,7 +48,8 @@ https://marketsplash.com/tutorials/git/git-reset/
 3. Hard Reset (git reset --hard):  
 
 **12.what is the importance .git directory?    
-Answer**   The .git directory in a Git repository is a critically important component of the repository's structure. It contains all the information and metadata that Git needs to manage the repository, track changes, and facilitate version control.  
+Answer**   The .git directory in a Git repository is a critically important component of the repository's structure. It contains all the information and metadata that Git needs to manage the repository, track changes, and facilitate version control.The dot indicates a hidden directory. we do not work on that directory, various comands work for that.  
+
 **13.What PR (Pull request) is? whats the importance of PR?  
 Answer** A pull request – also referred to as a merge request – is an event that takes place in software development when a contributor/developer is ready to begin the process of merging new code changes with the main project repository.  
 During a pull request, the repository maintainer reviews new code updates from a developer to determine whether or not it is ready to be released. Without pull requests, unfinished or incorrectly written code updates could be prematurely merged with the main repository and break or cause issues with the live product.  
