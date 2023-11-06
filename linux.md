@@ -4,7 +4,20 @@ Answer:**    an "inode," which stands for "index node," is a fundamental data st
 Answer:**    To check the network connections on your computer or a remote server, you can use various command-line tools depending on your operating system. Here are some common commands to check network connections:  
 netstat -ano  
 **4. what is the default permission of linux system    
-Answer:**    
+Answer:**    In a Linux system, the default permissions for files and directories are typically set by the umask (user file creation mask) for each user. The umask defines the default permissions that are subtracted from the maximum permissions, which results in the actual permissions assigned to newly created files and directories.   
+The default permission settings for files and directories in a typical Linux system are as follows:   
+1. **For Files:** The default file permission is usually 666 (read and write permission for the owner, and read-only permission for others) minus the umask value. This results in the following common default file permissions:   
+   - If the umask is 002, the default file permission is 664 (rw-rw-r--).   
+   - If the umask is 022, the default file permission is 644 (rw-r--r--).   
+2. **For Directories:** The default directory permission is typically 777 (read, write, and execute permission for the owner, group, and others) minus the umask value. This results in the following common default directory permissions:     
+   - If the umask is 002, the default directory permission is 775 (rwxrwxr-x).   
+   - If the umask is 022, the default directory permission is 755 (rwxr-xr-x).   
+The umask is configured in the user's shell environment and can be modified to change the default permissions for newly created files and directories. It's important to note that these are common default settings, and they can vary depending on the Linux distribution and the specific configuration of the system.
+To check the current umask setting for a user, you can use the `umask` command in the terminal. For example:
+```
+umask
+```
+This command will display the current umask value in octal notation. To change the umask, you can set it in the user's shell profile configuration files, such as `.bashrc` or `.bash_profile`.   
 **5.how to knwo the ip address    
 Answer:** Use the ifconfig or ip a command. Look for the "inet" or "inet addr" entry under the network adapter you are interested in "'ipconfig""  
 **6. write a script which accepts file or folder, if its folder delete it else print "this is a file"?   
