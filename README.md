@@ -43,8 +43,8 @@
 1.how can we reduce docker image  
 2.Define docker Engine   
 3.How to reduce docker image size  
-4. CMD vs RUN  
-5.Entrypoint vs 
+4. ADD vs COPY
+5.ENTRYPOINT vs  CMD  
 5.where docker container are stored  
 6.in docker (. dot ) in docker build and what can if we remove    
 7.Difference between docker stop and docker kill?
@@ -76,9 +76,10 @@
 14.Components in kubernetes architecture?  
 15.What are stateful sets in kuberentes?  
 16.Why config maps are used  
-17.Why config maps are used  
 18.what are operators and give one example where we can use operator?  
-19.What is a mesh?
+19.What is a mesh?  
+20.write an nginix file  
+21. Decribe about K8's Services  
 
 
 
@@ -139,12 +140,12 @@
 31.Services used AWS and tasks performed in AWS  
 32.I have 3 tier application, configure it with private and public subnet?  
 33.How to replicate or create same machine with same configuration?  
-34.How to replicate or create same machine with same configuration?  
 
 # Terraform 
-1.Define statefile 
-2.write the samele S3 resource file  
-3.
+1.Define statefile   
+2.write the samele S3 resource file    
+3.terraform state lock  
+4.
 
 
 
