@@ -36,7 +36,7 @@ Answer**
 **13.Command to list pods and deployments   
 Answer**
 **14.Components in kubernetes architecture?   
-Answer**
+Answer** https://komodor.com/learn/kubernetes-architecture/  
 **15.What are stateful sets in kuberentes?   
 Answer**StatefulSet is the workload API object used to manage stateful applications. Manages the deployment and scaling of a set of Pods, and provides guarantees about the ordering and uniqueness of these Pods. 
 Like a Deployment, a StatefulSet manages Pods that are based on an identical container spec. Unlike a Deployment, a StatefulSet maintains a sticky identity for each of its Pods. These pods are created from the same spec, but are not interchangeable: each has a persistent identifier that it maintains across any rescheduling. 
@@ -47,4 +47,8 @@ applications are easily portable.
 Note: It doesn't provide secrecy or encryption.   
 
 **17.what are operators and give one example where we can use operator?   
-Answer**https://www.cncf.io/blog/2022/06/15/kubernetes-operators-what-are-they-some-examples/
+Answer**https://www.cncf.io/blog/2022/06/15/kubernetes-operators-what-are-they-some-examples/  
+
+**20.write an nginix file**  
+**21. Decribe about K8's Services**  
+https://komodor.com/learn/kubernetes-service-examples-basic-usage-and-troubleshooting/  
