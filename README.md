@@ -139,13 +139,13 @@
 30.code pipeline, multi tenancy, aptcontainer, elasticbean stack and how to access to access other application using iam  
 31.Services used AWS and tasks performed in AWS  
 32.I have 3 tier application, configure it with private and public subnet?  
-33.How to replicate or create same machine with same configuration?  
+33.How to replicate or create same machine with same configuration?
 
 # Terraform 
 1.Define statefile   
 2.write the samele S3 resource file    
 3.terraform state lock  
-4.
+4. 
 
 
 
@@ -159,7 +159,7 @@
 4.define prometheus  
 5.how do we configure endpoint in promethus to scrape the data?  
 6. What  APM in Datadog  
-
+7. ELK
 
 #Define CI/CD  
 #Define Monolithic vs microservises
