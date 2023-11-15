@@ -44,4 +44,5 @@ Custom User-Defined Networks: You can create your own user-defined networks to i
 By default, if you don't specify a network when starting a container, it will be connected to the default bridge network. You can specify a network using the --network option when running a container, and you can also create custom user-defined networks to better control and isolate container communication in your applications. 
 
 **12.Explain a sample dockerfile that you have used in your project?  
-Answer**
+Answer**  
+**13.How Docker containers troubleshoot the issue?**
