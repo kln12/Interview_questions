@@ -140,4 +140,26 @@ n this example, the my_function function takes two parameters, and when you call
 $ chmod +x myscript.sh   
 $ ./myscript.sh
 
+**15.How to write a backup script or write any automate scripts?**  
+1. Open a text editor: On Unix-based systems, you can use nano, vim.
+2. Create a new file, for example, backup_script.sh, and start writing your script.
+3. #!/bin/bash
+
+** Backup script**    
+This script creates a backup of a specified directory.
+
+** Set the source and destination directories**    
+source_directory="/path/to/source"    
+backup_directory="/path/to/backup"    
+   
+ Create a timestamp for the backup file    
+timestamp=$(date +"%Y%m%d_%H%M%S")    
+
+ Create a tar archive of the source directory    
+tar -czf "$backup_directory/backup_$timestamp.tar.gz" -C "$source_directory"     .
+
+ Print a message indicating the backup is complete    
+echo "Backup completed successfully at $(date)."    
+Save the file with a .sh extension, for example, backup_script.sh.    
+Execute the script to ensure it's working as expected: ./backup_script.sh       
 
