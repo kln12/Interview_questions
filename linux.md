@@ -161,5 +161,20 @@ tar -czf "$backup_directory/backup_$timestamp.tar.gz" -C "$source_directory"    
  Print a message indicating the backup is complete    
 echo "Backup completed successfully at $(date)."    
 Save the file with a .sh extension, for example, backup_script.sh.    
-Execute the script to ensure it's working as expected: ./backup_script.sh       
+Execute the script to ensure it's working as expected: ./backup_script.sh           
 
+**Write a list of linux commands in a file and execute?**    
+Open a text editor and create a file, let's call it commands.txt.    
+echo "Hello, World!"   
+ls -l   
+pwd   
+mkdir test_directory   
+cd test_directory   
+touch file1.txt   
+echo "This is a test file." > file1.txt   
+cat file1.txt   
+Save and close the file.   
+Open a terminal and navigate to the directory where commands.txt is located.   
+Make sure the file is executable: chmod +x commands.txt    
+Execute the file:./commands.txt    
+Note: If any of the commands in the file require elevated privileges (sudo), you might need to run the entire script with sudo:sudo ./commands.txt    
