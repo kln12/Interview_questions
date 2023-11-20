@@ -54,6 +54,7 @@
 11.Types of network in docker? if you dont specify network to deploy on which network the conatiner will be created?  
 12.Explain a sample dockerfile that you have used in your project?  
 13.How to check Docker Version  
+14. $D How troubleshoot the container in dameon?  
 
 
 
@@ -83,6 +84,7 @@
 
 
 
+
 # Linux
 1.how to pass an argument in a script  
  2.what is Inode in linux  
@@ -94,10 +96,15 @@
 8.How to schedule a shell script in unix machines?  
 9.Need to identify ip addresses in log file and count of ip addresses in log file?  
 10.what is command for checking the running process? how to get PID of process?  
-11.what is command for checking the running process? how to get PID of process?  
 12How to indentify the number of params that has been sent to shell script?  
 13is it possible to store a commands output, either success or failure to the same file?  
 14In shell script can we supply parameters to functions?  
+15.how to print the line no 22?     
+16.how to check port no  
+17. how to copy the file from host to another host?  
+18.Define softlink and hardlink  
+19. Describe Umask.  
+
 
 
 # AWS
