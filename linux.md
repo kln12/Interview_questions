@@ -178,3 +178,18 @@ Open a terminal and navigate to the directory where commands.txt is located.
 Make sure the file is executable: chmod +x commands.txt    
 Execute the file:./commands.txt    
 Note: If any of the commands in the file require elevated privileges (sudo), you might need to run the entire script with sudo:sudo ./commands.txt    
+
+**15.how to print the line no 22?**    
+**Answer:** sed -n '22p' filename   
+-n: Suppresses automatic printing of pattern space.   
+22p: Tells sed to print the 22nd line.   
+
+**16.how to check port no:    
+Answer** netstat -an | grep PORT_NUMBER    
+lsof -i :PORT_NUMBER    
+Replace PORT_NUMBER with the actual port number you want to check. This command lists information about files that are opened by processes, and the -i option filters for internet-related files.
+
+17. how to copy the file from host to another host?
+18.Define softlink and hardlink
+19.**Describe Umask.    
+20.Answer** The umask, short for "user file creation mask," is a three-digit octal (base-8) number in Unix and Unix-like operating systems that controls the default file permission settings for newly created files by a user or process. The umask value is subtracted from the maximum permissions (usually 777 for directories and 666 for regular files) to determine the default permissions of new file
