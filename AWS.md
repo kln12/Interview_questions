@@ -15,7 +15,7 @@ to check, Go to AWS S3 console -> Open S3 Bucket -> Properties -> Bucket Version
 Make sure you have access to both S3 buckets, to copy content and make changes in S3 bucket configurations   
 **4 explain Disastor Recovery(DR) AND types    
 Answer:**   https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-i-strategies-for-recovery-in-the-cloud/   
-**how inconme allow but does not go outbound      
+**how income allow but does not go outbound      
 Answer:**   
 **how to increase a the volume size of instance  
 Answer:**     Consider you have stopped the instance from running, simply navigate to Elastic Block Store -> Volumes.   
@@ -57,12 +57,14 @@ Gateway - In simple way of saying it’s a network device to be more specific it
 Answer:** When you stop an AWS EC2 instance, you do not get charged for that instance and can restart the instance with all the data and software on the EC2 instance being intact. However, you are charged for the EBS volumes attached with the instance.   
 When you terminate an AWS EC2 instance, you cannot restart the instance and all the data is permenantely lost. You cannot use that same instance ever again. Once the state of the instance is changed to shutting-down or terminated you are no longer charged for that instance.   
 It is always a good practice to take backup of your EC2 instance as AMI and of your EBS volumes as snapshot before terminating the instance. A new EC2 instance with an EBS volume can be spawned from the AMI and the snapshot   
-**9.Cloud watch and SNS   
+**9.Cloud watch and SNS     
 Answer**
-**10.private and public subnet  
-Answer**    
+**10.private and public subnet     
+Answer**  https://www.learnaws.org/2022/06/22/public-private-subnets/     
 11.Types of s3     
-12.Define Security group and NACL  Answer     
+**12.Define Security group and NACL   
+Answer**  ![image](https://github.com/kln12/Interview_questions/assets/58560303/9480d5cc-b10a-4e11-a9d3-8fa6de113272)
+
 13.Explain User data    Answer   
 14.Storage types    Answer   
 15.Disastor Recovery    Answer   
@@ -75,7 +77,9 @@ Answer**
 19.EKS and ECS Answer:    Answer   
 20.Application Load Balancer vs Network Load Balancer    Answer   
 21.subnet mask and calculate rhe 10.2.1.0/16    Answer   
-22.if pem key is deleted alternatively how can authenticate agent   Answer    
+**22.if pem key is deleted alternatively how can authenticate agent   
+Answer**   https://towardsdev.com/accessing-aws-instances-if-pem-key-file-is-lost-2a7f4dca4f89   
+
 23.describe eni    Answer   
 24.ebs volume types    Answer   
 **What is VPC endpoints     
