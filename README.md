@@ -107,7 +107,7 @@
 
 
 
-# AWS
+# AWS  
 1. Diff b/w EFS and  EBS 
  Diff B/W application Load balencer and elastic load balencer 
  3. how to replicate S3 bucket 
@@ -147,6 +147,8 @@
 31.Services used AWS and tasks performed in AWS  
 32.I have 3 tier application, configure it with private and public subnet?  
 33.How to replicate or create same machine with same configuration?
+34.how to manage the S3 Bucket from EC2 instance to write and read by private
+
 
 # Terraform 
 1.Define statefile   
