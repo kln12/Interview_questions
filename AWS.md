@@ -160,3 +160,6 @@ Review your settings and configurations, and click "Launch."
 Access the New Instance:
 Once the new instance is running, you can access it using the same methods as your source machine. This includes SSH for Linux instances or Remote Desktop for Windows instances.     
 
+**how to manage the S3 Bucket from EC2 instance to write and read by private   
+Answer** 
+
