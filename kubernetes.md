@@ -8,6 +8,9 @@ Answer:**
 Answer:**   
 **5.if one node is down and how to pods are shedule to other nodes    
 Answer:**   
+In a Kubernetes cluster, if a node goes down, the Pods running on that node need to be rescheduled to other available nodes to maintain the desired state of the application. Kubernetes has a mechanism called "Pod rescheduling" or "Node failure handling" to address this  Eviction of Pods:
+Once a node is detected as unhealthy or goes down, Kubernetes initiates the eviction of Pods running on that node.
+The scheduler identifies the affected Pods and decides where to reschedule them based on resource requirements, node affinity/anti-affinity rules, and other policies.  
 **6.Can we have multiple conatiners in a pod? Can we have similar conatiners in a pod? Lets say i have 4 conatiners, one of them has failed how would you check which container has failed?   
 Answer**
 **7.What is liveness and readiness probe? Why we need them?   
@@ -49,6 +52,28 @@ Note: It doesn't provide secrecy or encryption.
 **17.what are operators and give one example where we can use operator?   
 Answer**https://www.cncf.io/blog/2022/06/15/kubernetes-operators-what-are-they-some-examples/  
 
-**20.write an nginix file**  
+**20.write an ingress file**  
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: example-ingress
+  namespace: your-namespace
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+    - host: your-domain.com
+      http:
+        paths:
+          - path: /app
+            pathType: Prefix
+            backend:
+              service:
+                name: your-app-service
+                port:
+                  number: 80
+
 **21. Decribe about K8's Services**  
-https://komodor.com/learn/kubernetes-service-examples-basic-usage-and-troubleshooting/  
+https://komodor.com/learn/kubernetes-service-examples-basic-usage-and-troubleshooting/   
+**22. Describe DaemonSet.    
+ Answer**A DaemonSet is a Kubernetes resource that ensures that a copy of a Pod is running on all (or some) nodes in a cluster. It is useful for running background services or daemons that need to be present on all nodes, such as log collectors, monitoring agents, or network plugins.
