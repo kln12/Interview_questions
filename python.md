@@ -1,6 +1,6 @@
 
-1.write a program even or prime.   
-Answer:def is_even(number):
+**1.write a program even or prime.   
+Answer**:def is_even(number):
     if number % 2 == 0:
         return True
     else:
@@ -13,8 +13,8 @@ if is_even(num):
 else:
     print(f"{num} is not even.")
 
-2.How to take a backup of a file, write a script?  
-Answer:import shutil
+**2.How to take a backup of a file, write a script?  
+Answer**:import shutil
 from datetime import datetime
 
 def backup_file(file_path):
@@ -39,13 +39,13 @@ def backup_file(file_path):
     except Exception as e:
         print(f"Error creating backup: {e}")
 
-# Example usage:
-file_to_backup = input("Enter the path of the file to backup: ")
+**Example usage:** 
+     file_to_backup = input("Enter the path of the file to backup: ")
 backup_file(file_to_backup)
 
 
-3.select the user from a group?
-Answer:import random
+**3.select the user from a group?
+Answer**:import random
 
 def select_user(group):
     if not group:
