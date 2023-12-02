@@ -35,6 +35,7 @@
 15.Can we have job for pr and once merge is done the source branch should be deleted?  
 16.explain jenkins master-slave architexture?  
 17.what are the plugins used in jenkins  
+18.if you have 10 employees in your company, how can assign Jenkins access to these employee and give permission in Jenkins ?
 
 
 
