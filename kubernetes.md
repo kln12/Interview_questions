@@ -77,3 +77,10 @@ spec:
 https://komodor.com/learn/kubernetes-service-examples-basic-usage-and-troubleshooting/   
 **22. Describe DaemonSet.    
  Answer**A DaemonSet is a Kubernetes resource that ensures that a copy of a Pod is running on all (or some) nodes in a cluster. It is useful for running background services or daemons that need to be present on all nodes, such as log collectors, monitoring agents, or network plugins.
+
+ **6. How have you handled failed deployments?
+AnswerIdentify** the Issue:Quickly determine the nature of the problem. Is it a code issue, configuration problem, infrastructure issue, or a combination of factors
+Rollback:If possible, roll back to the previous version to minimize the impact on users and the system.
+Communication:Communicate with relevant stakeholders, including users, management, and the development team. Provide clear and accurate information about the issue, its impact, and the steps being taken to address it.
+Isolate the Problem:Narrow down the scope of the problem to identify the root cause. This may involve analyzing logs, monitoring data, and conducting further testing.
+Fix the Issue:Develop a solution for the identified problem and test it thoroughly in a controlled environment before attempting another deployment.
