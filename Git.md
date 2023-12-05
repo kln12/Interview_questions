@@ -57,4 +57,12 @@ During a pull request, the repository maintainer reviews new code updates from a
 **14.What is git squash?    
 Answer**Squashing commits in Git refers to the process of combining multiple consecutive commits into a single commit. This is typically done to clean up the commit history, especially before merging a feature branch into the main branch (e.g., master). Squashing makes the commit history more concise and easier to understand.  
 **15.Branching strategy?   
-Answer** https://www.bmc.com/blogs/devops-branching-strategies/ 
+Answer** https://www.bmc.com/blogs/devops-branching-strategies/   
+
+𝐌𝐨𝐧𝐨𝐥𝐢𝐭𝐡𝐢𝐜 𝐕𝐒 𝐌𝐢𝐜𝐫𝐨𝐬𝐞𝐫𝐯𝐢𝐜𝐞𝐬 𝐀𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐮𝐫𝐞: 𝐀 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐢𝐜 𝐂𝐡𝐨𝐢𝐜𝐞
+
+In today's ever-evolving landscape of software development, the debate between Monolithic and Microservices architectures is more relevant than ever. It's crucial to understand the strengths and challenges of each approach. 
+
+🔍 𝐌𝐨𝐧𝐨𝐥𝐢𝐭𝐡𝐢𝐜 𝐀𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐮𝐫𝐞  - Often seen as the traditional model, monolithic architecture is like a tightly interwoven fabric where all components of the application are interconnected and interdependent. This approach offers simplicity in development, deployment, and scaling for smaller applications or teams. However, as the application grows, scaling can become a challenge, leading to longer development cycles and complex debugging processes.
+
+🔍 𝐌𝐢𝐜𝐫𝐨𝐬𝐞𝐫𝐯𝐢𝐜𝐞𝐬 𝐀𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐮𝐫𝐞 - Imagine a constellation, where each star is a service. Microservices architecture breaks down the application into a collection of smaller, independent services. This approach provides excellent scalability, flexibility, and the ability to use different technologies for different services. It's ideal for large, complex applications and teams that require agility and speed in development. However, it comes with its own set of challenges like increased complexity in managing multiple services and inter-service communication.
