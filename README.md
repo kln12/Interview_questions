@@ -82,6 +82,7 @@
 19.What is a mesh?  
 20.write an nginix file  
 21. Decribe about K8's Services  
+22.how to create kubernetes node  
 
 
 
