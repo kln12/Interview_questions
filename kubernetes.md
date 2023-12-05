@@ -83,4 +83,6 @@ AnswerIdentify** the Issue:Quickly determine the nature of the problem. Is it a 
 Rollback:If possible, roll back to the previous version to minimize the impact on users and the system.
 Communication:Communicate with relevant stakeholders, including users, management, and the development team. Provide clear and accurate information about the issue, its impact, and the steps being taken to address it.
 Isolate the Problem:Narrow down the scope of the problem to identify the root cause. This may involve analyzing logs, monitoring data, and conducting further testing.
-Fix the Issue:Develop a solution for the identified problem and test it thoroughly in a controlled environment before attempting another deployment.
+Fix the Issue:Develop a solution for the identified problem and test it thoroughly in a controlled environment before attempting another deployment.  
+**24. How to create a node
+Answer** https://kubernetes.io/docs/concepts/architecture/nodes/
