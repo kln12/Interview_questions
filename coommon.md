@@ -9,6 +9,5 @@ While I didn't have another job offer secured at the time of my resignation, I m
 **4. Describe one challengge that you face as a team member   
 Answer** 
 5. What's the next thing you would automate in your current workflow?   
-6. How have you handled failed deployments?
 
 
