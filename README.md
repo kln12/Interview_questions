@@ -109,7 +109,7 @@
 
 
 
-# AWS  
+# AWS  https://github.com/kln12/Interview_questions/blob/main/AWS.md  
 1. Diff b/w EFS and  EBS 
  Diff B/W application Load balencer and elastic load balencer 
  3. how to replicate S3 bucket 
