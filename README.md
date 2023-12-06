@@ -64,7 +64,8 @@ https://github.com/kln12/Interview_questions/blob/main/Docker.md
 
 
 
-# Kubernetes
+# Kubernetes  
+https://github.com/kln12/Interview_questions/blob/main/kubernetes.md  
 1.i have  4 clusters A,B,C,D  and i'm in Ath cluster and i want to switch to B cluster  
 2. In kubernetes, Role based authentication  
 3. How to troubleshoot the pod, if issue occur after 6 month  
@@ -91,7 +92,7 @@ https://github.com/kln12/Interview_questions/blob/main/Docker.md
 
 
 # Linux  
-https://github.com/kln12/Interview_questions/blob/main/linux.md
+https://github.com/kln12/Interview_questions/blob/main/linux.md  
 1.how to pass an argument in a script  
  2.what is Inode in linux  
  3.how to check the connections are going  
@@ -158,7 +159,7 @@ https://github.com/kln12/Interview_questions/blob/main/AWS.md
 
 
 # Terraform 
-https://github.com/kln12/Interview_questions/blob/main/terraform.md
+https://github.com/kln12/Interview_questions/blob/main/terraform.md  
 1.Define statefile   
 2.write the samele S3 resource file    
 3.terraform state lock  
