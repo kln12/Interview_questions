@@ -1,5 +1,6 @@
 # Interview_questions
-# GIT
+# GIT  
+https://github.com/kln12/Interview_questions/blob/main/Git.md  
 1.How to change commit name.  
 2.git actions default action   
 3.Explain about gitlab runnersand types  
@@ -17,7 +18,8 @@
 15.Branching strategy?  
 
 
-# Jenkins
+# Jenkins  
+https://github.com/kln12/Interview_questions/blob/main/jenkins.md  
 1.in jenkins pippeline, it have 10 stages and in 5th stage sucessfully run automatically shows result stage 7.    
 2.Jenkins pipeline, we have 10 stages in the stage 5 is failed but we need pass to stage 4 to stage 6. 
 3.mvn clean install vs mvn clean deploy   
@@ -88,7 +90,8 @@ https://github.com/kln12/Interview_questions/blob/main/Docker.md
 
 
 
-# Linux
+# Linux  
+https://github.com/kln12/Interview_questions/blob/main/linux.md
 1.how to pass an argument in a script  
  2.what is Inode in linux  
  3.how to check the connections are going  
@@ -110,7 +113,8 @@ https://github.com/kln12/Interview_questions/blob/main/Docker.md
 
 
 
-# AWS  https://github.com/kln12/Interview_questions/blob/main/AWS.md  
+# AWS 
+https://github.com/kln12/Interview_questions/blob/main/AWS.md  
 1. Diff b/w EFS and  EBS 
  Diff B/W application Load balencer and elastic load balencer 
  3. how to replicate S3 bucket 
@@ -154,6 +158,7 @@ https://github.com/kln12/Interview_questions/blob/main/Docker.md
 
 
 # Terraform 
+https://github.com/kln12/Interview_questions/blob/main/terraform.md
 1.Define statefile   
 2.write the samele S3 resource file    
 3.terraform state lock  
@@ -165,6 +170,7 @@ https://github.com/kln12/Interview_questions/blob/main/Docker.md
 
 **
 # Monitoring 
+https://github.com/kln12/Interview_questions/blob/main/monitoring.md  
 1.How do you Scrape the application data using Prometheus They shared the Grafana Dashboard, asked me few scenario based questions like what is your obeservations on this dashboard is there anything you can see critical based on dashboard is application health ok how do you create alerts based on this dashboard> 
 1.how to configure the datebase frontend and backend 
 3.How to define Alert manager in grafana  
