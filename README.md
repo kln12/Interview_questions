@@ -179,6 +179,8 @@ https://github.com/kln12/Interview_questions/blob/main/monitoring.md
 5.how do we configure endpoint in promethus to scrape the data?  
 6. What  APM in Datadog  
 7. ELK
+8.What are different types of monitoring worked
+9.whre are application logs and server logs are stored 
 
 #Define CI/CD  
 #Define Monolithic vs microservises
