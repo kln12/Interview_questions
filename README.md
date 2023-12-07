@@ -87,6 +87,7 @@ https://github.com/kln12/Interview_questions/blob/main/kubernetes.md
 20.write an nginix file  
 21. Decribe about K8's Services  
 22.how to create kubernetes node  
+23.Describe TSL 
 
 
 
