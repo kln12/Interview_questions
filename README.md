@@ -33,7 +33,7 @@ https://github.com/kln12/Interview_questions/blob/main/jenkins.md
 11.What are active and reactive parameters (Dynamic parameterization) in Jenkins ?  
 12.How to set Jenkins build to fail based specific word in console output ?  
 13.what is the need of CICD tools?  
-14.What type of Jenkinsfile you have worked on?  
+14.What type of Jenkinsfile you have worked on? Difference b/w declarative and scripted pipeline.  
 15.Can we have job for pr and once merge is done the source branch should be deleted?  
 16.explain jenkins master-slave architexture?  
 17.what are the plugins used in jenkins  
