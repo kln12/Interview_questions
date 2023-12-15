@@ -84,5 +84,93 @@ Rollback:If possible, roll back to the previous version to minimize the impact o
 Communication:Communicate with relevant stakeholders, including users, management, and the development team. Provide clear and accurate information about the issue, its impact, and the steps being taken to address it.
 Isolate the Problem:Narrow down the scope of the problem to identify the root cause. This may involve analyzing logs, monitoring data, and conducting further testing.
 Fix the Issue:Develop a solution for the identified problem and test it thoroughly in a controlled environment before attempting another deployment.  
-**24. How to create a node
-Answer** https://kubernetes.io/docs/concepts/architecture/nodes/
+**24. How to create a node  
+Answer** https://kubernetes.io/docs/concepts/architecture/nodes/  
+**23.Describe TSL    
+Answer**
+**24.what is the importance of kubeconfig file? Also lets say when you login to kuberenets by default it will pointed to default namespace, if i want list any objects which are other namespace need concate -n option for all the kubectl commands, is there a way we can set the namaspace to aviod -n option in all the commands
+Answer**The kubeconfig file is a crucial configuration file used by kubectl to interact with Kubernetes clusters. It contains information about cluster authentication, the location of the cluster, the default namespace, and other settings.
+**24.Tools to maintain kubernetes log files
+Answer**
+**25.List objects you know in kubernetes?Give a brief about each object?
+Answer** 
+Kubernetes has a variety of objects that allow you to deploy, manage, and scale applications. Here's a list of some commonly used Kubernetes objects along with brief descriptions:
+
+Pod:
+Description: The smallest deployable unit in Kubernetes. A Pod represents a single instance of a running process in a cluster and encapsulates one or more containers.
+Use Case: Running a single container or multiple tightly-coupled containers within the same network namespace.
+ReplicationController (Deprecated) / ReplicaSet:
+Description: Ensures a specified number of replica Pods are running at all times. It is used for maintaining the desired number of replicas of a Pod.
+Use Case: Ensuring high availability and scalability by managing identical Pods.
+Deployment:
+Description: Provides declarative updates to applications. It allows you to describe the desired state of the application and automatically manages the deployment and scaling of Pods.
+Use Case: Rolling updates, rollbacks, and scaling applications.
+Service:
+Description: Exposes a set of Pods as a network service. It provides a stable IP address and DNS name for accessing the Pods, enabling load balancing across them.
+Use Case: Exposing applications within the cluster or making them accessible externally.
+ConfigMap:
+Description: Stores configuration data in key-value pairs. ConfigMaps can be mounted into Pods as volumes or used to set environment variables.
+Use Case: Separating configuration from application code and managing configuration data.
+Secret:
+Description: Stores sensitive information, such as passwords, OAuth tokens, and SSH keys. Secrets are base64 encoded and can be used by Pods.
+Use Case: Securing sensitive data used by applications.
+Namespace:
+Description: Provides a way to divide cluster resources into virtual clusters. It helps in organizing and isolating resources within a cluster.
+Use Case: Multi-tenancy and resource isolation.
+ServiceAccount:
+Description: Provides an identity for processes running in a Pod. Service accounts are used to control access to the Kubernetes API.
+Use Case: Controlling permissions and access for Pods.
+PersistentVolume (PV) and PersistentVolumeClaim (PVC):
+Description: PV represents physical storage resources, and PVC is a request for those resources by a user. PVCs consume PVs.
+Use Case: Persistent storage for stateful applications.
+StatefulSet:
+Description: Manages the deployment and scaling of a set of Pods with stable network identities. It is used for stateful applications.
+Use Case: Deploying and scaling stateful applications with unique network identities.
+DaemonSet:
+Description: Ensures that all (or some) Nodes run a copy of a Pod. It is used for deploying system daemons or agents on every Node.
+Use Case: Running a monitoring agent or logging agent on every Node.
+Job and CronJob:
+Description: A Job creates one or more Pods and ensures they successfully terminate. CronJob is a time-based Job scheduler.
+Use Case: Running batch processes and scheduled tasks.
+**26.List resource you know in kubernetes?
+Answer**In Kubernetes, resources refer to the computational units (CPU and memory) that are allocated to containers running in Pods. The allocation of resources helps in defining the capacity and constraints of a Kubernetes cluster. Here are some key resources in Kubernetes:
+CPU (Central Processing Unit):
+Description: The processing power allocated to a container or Pod.
+Resource Definition: Specified in terms of CPU units (e.g., "500m" represents 500 milliCPU or half a core).
+Memory:
+Description: The amount of RAM allocated to a container or Pod.
+Resource Definition: Specified in terms of bytes (e.g., "256Mi" represents 256 megabytes).
+Storage:
+Description: Represents the amount of storage allocated to a container or Pod.
+Resource Definition: Configured using Persistent Volumes (PVs) and Persistent Volume Claims (PVCs) for persistent storage needs.
+GPU (Graphics Processing Unit):
+Description: Specialized hardware resource for offloading graphic and parallel computation tasks.
+Resource Definition: Allocated to containers requiring GPU acceleration.
+Ephemeral Storage:
+Description: Represents temporary storage that is associated with a node but not persisted across restarts.
+Resource Definition: Configured based on the node's available ephemeral storage.
+Network Bandwidth:
+Description: Represents the rate of data transfer over the network.
+Resource Definition: Configured based on network policies and bandwidth requirements.
+Number of Pods:
+Description: Represents the count of Pods running within a specific namespace or cluster.
+Resource Definition: Used for managing the overall load on the cluster.
+Number of Nodes:
+Description: Represents the count of worker nodes in the Kubernetes cluster.
+Resource Definition: Used for managing the overall cluster capacity.
+Number of CPU Cores:
+Description: Represents the total number of CPU cores available in the cluster.
+Resource Definition: Used for capacity planning and resource allocation.
+Number of GPUs:
+Description: Represents the total number of GPUs available in the cluster.
+Resource Definition: Used for scheduling containers that require GPU acceleration.
+Node Selector:
+Description: Allows Pods to be scheduled onto nodes based on node labels.
+Resource Definition: Configured in Pod specifications to define node affinity.
+Resource Quotas:
+Description: Limits the aggregate resource consumption in a namespace.
+Resource Definition: Set quotas for CPU, memory, storage, and other resources within a namespace.
+LimitRange:
+Description: Sets default resource requests and limits for containers within a namespace.
+Resource Definition: Helps in preventing resource exhaustion and ensuring fair resource allocation.
+These resources are critical for managing and optimizing the performance, scalability, and reliability of applications running in a Kubernetes cluster. Kubernetes allows users to define and manage these resources to ensure efficient resource utilization and maintain the health of the cluster.
