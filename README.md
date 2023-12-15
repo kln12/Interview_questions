@@ -88,6 +88,9 @@ https://github.com/kln12/Interview_questions/blob/main/kubernetes.md
 21. Decribe about K8's Services  
 22.how to create kubernetes node  
 23.Describe TSL 
+24.what is the importance of kubeconfig file? Also lets say when you login to kuberenets by default it will pointed to default namespace, if i want list any objects which are other namespace need concate -n option for all the kubectl commands, is there a way we can set the namaspace to aviod -n option in all the commands  
+24.Tools to maintain kubernetes log files  
+25.List objects you know in kubernetes?Give a brief about each object?   
 
 
 
@@ -182,6 +185,8 @@ https://github.com/kln12/Interview_questions/blob/main/monitoring.md
 7. ELK 
 8.What are different types of monitoring worked 
 9.whre are application logs and server logs are stored  
+10.what is the use of node exporter and alert manager in prometheus?  
+11.difference between metrics monitoring and log monitoring, give example for both type of monitoring?  
 
 #Define CI/CD  
 #Define Monolithic vs microservises
