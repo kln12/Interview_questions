@@ -28,11 +28,11 @@ Manage environment-specific configurations separately. Kubernetes ConfigMaps and
 Implement continuous deployment pipelines in Jenkins to automate the deployment process. Define different stages for each environment (e.g., dev, test, prod), and trigger deployments based on successful builds or manual approvals.   
 
 **Why are you interested in this position?    
-Answer**I am passionate about streamlining development processes, enhancing collaboration between teams, and ensuring efficient deployment. The dynamic nature of DevOps aligns with my skills in automation, infrastructure management, and continuous integration/continuous deployment. I am excited about contributing to the seamless integration of development and operations, fostering a culture of automation, and optimizing workflows to deliver high-quality software.   
+Answer**"I am excited about this DevOps Engineer position because it aligns perfectly with my skills and passion. I thrive in streamlining processes and ensuring smooth collaboration between development and operations teams. This role allows me to apply my expertise in optimizing workflows, automating tasks, and enhancing overall system reliability. I believe my contributions can significantly contribute to the efficiency and success of the team." 
 **What are the key contributions you can bring to this role?    
 Answer**"I bring extensive experience in automating deployment pipelines, orchestrating containerized applications, and optimizing infrastructure. My proficiency in cloud technologies, scripting, and monitoring tools ensures robust and scalable systems. I excel in fostering collaboration between development and operations teams, promoting a culture of continuous improvement.    
 **7.Why are you leaving your current position?   
-Answer**I am seeking new challenges and opportunities for professional growth. I believe that this position aligns with my skills and career goals, offering a platform to contribute effectively and expand my expertise in a dynamic environment."   
+Answer**I left my previous job because I felt it was time for a change and personal growth. I wanted to explore new opportunities and challenges. Although I didn't have another offer at the time, I am actively seeking a role similar to my previous position to continue utilizing my skills and contribute effectively  
 
 
 
