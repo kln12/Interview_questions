@@ -154,4 +154,10 @@ Resource Definition: Set quotas for CPU, memory, storage, and other resources wi
 LimitRange:  
 Description: Sets default resource requests and limits for containers within a namespace.
 Resource Definition: Helps in preventing resource exhaustion and ensuring fair resource allocation.
-These resources are critical for managing and optimizing the performance, scalability, and reliability of applications running in a Kubernetes cluster. Kubernetes allows users to define and manage these resources to ensure efficient resource utilization and maintain the health of the cluster.
+These resources are critical for managing and optimizing the performance, scalability, and reliability of applications running in a Kubernetes cluster. Kubernetes allows users to define and manage these resources to ensure efficient resource utilization and maintain the health of the cluster. 
+**26.Diiference b/w replicaset and replication controller  
+Answer** https://stackoverflow.com/questions/36220388/what-is-the-difference-between-replicaset-and-replicationcontroller    
+**27.how communication b/w pod to pod
+Answer**https://superuser.openinfra.dev/articles/review-of-pod-to-pod-communications-in-kubernetes/
+
+
