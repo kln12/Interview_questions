@@ -91,6 +91,8 @@ https://github.com/kln12/Interview_questions/blob/main/kubernetes.md
 24.what is the importance of kubeconfig file? Also lets say when you login to kuberenets by default it will pointed to default namespace, if i want list any objects which are other namespace need concate -n option for all the kubectl commands, is there a way we can set the namaspace to aviod -n option in all the commands  
 24.Tools to maintain kubernetes log files  
 25.List objects you know in kubernetes?Give a brief about each object?   
+26.Diiference b/w replicaset and replica
+27.how communication b/w pod to pod
 
 
 
