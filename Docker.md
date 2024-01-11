@@ -45,4 +45,7 @@ By default, if you don't specify a network when starting a container, it will be
 
 **12.Explain a sample dockerfile that you have used in your project?  
 Answer**  
-**13.How Docker containers troubleshoot the issue?**
+**13.How Docker containers troubleshoot the issue?**  
+**14.How to check version and stable docker version?  
+Answer** docker --version. 24.0.7
+
