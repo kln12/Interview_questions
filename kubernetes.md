@@ -160,4 +160,9 @@ Answer** https://stackoverflow.com/questions/36220388/what-is-the-difference-bet
 **27.how communication b/w pod to pod
 Answer**https://superuser.openinfra.dev/articles/review-of-pod-to-pod-communications-in-kubernetes/
 
+**28.difference b/w replica set and deployement  
+Answer**https://stackoverflow.com/questions/69448131/kubernetes-whats-the-difference-between-deployment-and-replica-set  
+**29. current kubernetes version: 1.29
+30. if annotation are not declared in kubernetes yaml file then what is default
+Answer**
 
