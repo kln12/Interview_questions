@@ -66,6 +66,12 @@ https://github.com/kln12/Interview_questions/blob/main/Docker.md
 
 # Kubernetes  
 https://github.com/kln12/Interview_questions/blob/main/kubernetes.md  
+1) How you can manage Kubernetes upgrade with Zero downtime!
+2) How do you handle patches to production fleet of instances ( of course zero downtime )
+3) How you manage micro services and what will be the branching strategies to manage code for the same ?
+4) A instance not getting traffic , here is the temp AWS account, pls find the root cause via console ( or cli if you want to )
+5) Here is the terraform code facing some issues , find why this error coming and fix it ( similar using CloudFormation if that’s in JD)
+6) Here is one Kubernetes manifest file, for some reason the deployment having issues and changes not getting deployed to the deployment , find the issue and fix it!
 1.i have  4 clusters A,B,C,D  and i'm in Ath cluster and i want to switch to B cluster  
 2. In kubernetes, Role based authentication  
 3. How to troubleshoot the pod, if issue occur after 6 month  
