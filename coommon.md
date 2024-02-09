@@ -32,7 +32,7 @@ Answer**"I am excited about this DevOps Engineer position because it aligns perf
 **What are the key contributions you can bring to this role?    
 Answer**"I bring extensive experience in automating deployment pipelines, orchestrating containerized applications, and optimizing infrastructure. My proficiency in cloud technologies, scripting, and monitoring tools ensures robust and scalable systems. I excel in fostering collaboration between development and operations teams, promoting a culture of continuous improvement.    
 **7.Why are you leaving your current position?   
-Answer**I left my previous job because I felt it was time for a change and personal growth. I wanted to explore new opportunities and challenges. Although I didn't have another offer at the time, I am actively seeking a role similar to my previous position to continue utilizing my skills and contribute effectively  
+Answer**I wanted to explore new opportunities and challenges. Although I didn't have another offer at the time, I am actively seeking a role similar to my previous position to continue utilizing my skills and contribute effectively  
 
 
 
