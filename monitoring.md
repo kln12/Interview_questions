@@ -9,25 +9,16 @@ Server Logs:
 Answer** 
 Monitoring systems play a crucial role in various fields to track and manage different aspects of systems, processes. 
 
-Network Monitoring Systems (NMS): Monitor and manage the performance of computer networks.  
-Functions: Track network traffic, bandwidth usage, device health, and detect anomalies or issues.    
-Server Monitoring Systems:  Monitor the health and performance of servers.  
-Functions: Track CPU usage, memory usage, disk space, server uptime, and other metrics to ensure optimal performance.  
-Application Performance Monitoring (APM) Systems:  Monitor the performance and availability of software applications.  
-Functions: Identify and diagnose issues related to application response time, errors, and resource usage.  
-Infrastructure Monitoring Systems: Monitor the overall infrastructure, including servers, networks, and storage.   
-Functions: Provide a holistic view of the IT environment, helping to identify and resolve potential problems.   
-Security Information and Event Management (SIEM) Systems: Monitor and analyze security events in real-time.   
-Functions: Detect and respond to security incidents, analyze logs, and provide insights into potential security threats.   
-Website Monitoring Systems: Monitor the availability and performance of websites.   
-Functions: Check website uptime, response times, and alert administrators to potential issues.   
-Database Monitoring Systems: Monitor the health and performance of databases.   
-Functions: Track query performance, database response times, and ensure the integrity of data.   
-Cloud Monitoring Systems: Monitor cloud infrastructure and services.
-Functions: Track the performance, availability, and cost of cloud resources to optimize usage and ensure reliability.   
-Performance Monitoring in DevOps: Monitor the performance of applications and systems in a DevOps environment.
-Functions: Provide insights into the development and deployment pipeline, helping teams identify and resolve issues quickly.
-These monitoring systems help organizations maintain the health, performance, and security of their systems and infrastructure, contributing to overall operational efficiency. The choice of a monitoring system depends on the specific needs and objectives of the organization or system being monitored.
+Network Monitoring Systems (NMS): Monitor and manage the performance of computer networks.  Functions: Track network traffic, bandwidth usage, device health, and detect anomalies or issues.       
+Server Monitoring Systems:  Monitor the health and performance of servers.  Functions: Track CPU usage, memory usage, disk space, server uptime, and other metrics to ensure optimal performance.     
+Application Performance Monitoring (APM) Systems:  Monitor the performance and availability of software applications.  Functions: Identify and diagnose issues related to application response time, errors, and resource usage.     
+Infrastructure Monitoring Systems: Monitor the overall infrastructure, including servers, networks, and storage.   Functions: Provide a holistic view of the IT environment, helping to identify and resolve potential problems.      
+Security Information and Event Management (SIEM) Systems: Monitor and analyze security events in real-time.   Functions: Detect and respond to security incidents, analyze logs, and provide insights into potential security threats.      
+Website Monitoring Systems: Monitor the availability and performance of websites.   Functions: Check website uptime, response times, and alert administrators to potential issues.      
+Database Monitoring Systems: Monitor the health and performance of databases.   Functions: Track query performance, database response times, and ensure the integrity of data.      
+Cloud Monitoring Systems: Monitor cloud infrastructure and services.   Functions: Track the performance, availability, and cost of cloud resources to optimize usage and ensure reliability.      
+Performance Monitoring in DevOps: Monitor the performance of applications and systems in a DevOps environment.Functions: Provide insights into the development and deployment pipeline, helping teams identify and resolve issues quickly.   
+monitoring systems help organizations maintain the health, performance, and security of their systems and infrastructure, contributing to overall operational efficiency. The choice of a monitoring system depends on the specific needs and objectives of the organization or system being monitored.
 
 **1.How do you Scrape the application data using Prometheus They shared the Grafana Dashboard, asked me few scenario based questions like what is your obeservations on this dashboard is there anything you can see critical based on dashboard is application health ok how do you create alerts based on this dashboard>  
 Answer:**  https://netcorecloud.com/tutorials/setup-prometheus-and-exporters/   
@@ -176,8 +167,8 @@ In summary, Node Exporter collects system-level metrics, and Alertmanager handle
 **What is APM in DataDog   
 Answer**Datadog Application Performance Monitoring (APM) gives deep visibility into your applications.seamlessly correlating traces with logs, metrics, real user monitoring (RUM) data, security signals, and other telemetry, Datadog APM enables you to detect and resolve root causes faster, improve application performance and security posture, optimize resource consumption, and collaborate more effectively to deliver the best user experience possible.
 **How to enable logs 
-Answer**
+Answer**   
 **What is Synthetic monitoring
-Answer**Synthetic monitoring is an application performance monitoring practice that emulates the paths users might take when engaging with an application. It uses scripts to generate simulated user behavior for different scenarios, geographic locations, device types, and other variables. 
+Answer**Synthetic monitoring is an application performance monitoring practice that emulates the paths users might take when engaging with an application. It uses scripts to generate simulated user behavior for different scenarios, geographic locations, device types, and other variables.    
 **How to setup Alert manager
 Answer** configure and setup alert manager. configure prometheus config file to it allow communicate with the alert manager.  in the  prometheus server configuration ,define alert rules. in alert manager create an alert mechanism to send alerts via slack and mail.
