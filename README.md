@@ -37,7 +37,8 @@ https://github.com/kln12/Interview_questions/blob/main/jenkins.md
 15.Can we have job for pr and once merge is done the source branch should be deleted?  
 16.explain jenkins master-slave architexture?  
 17.what are the plugins used in jenkins  
-18.if you have 10 employees in your company, how can assign Jenkins access to these employee and give permission in Jenkins ?
+18.if you have 10 employees in your company, how can assign Jenkins access to these employee and give permission in Jenkins ?  
+19. what is the command to remove the workspace or directory
 
 
 
@@ -99,6 +100,8 @@ https://github.com/kln12/Interview_questions/blob/main/kubernetes.md
 25.List objects you know in kubernetes?Give a brief about each object?   
 26.Diiference b/w replicaset and replica
 27.how communication b/w pod to pod
+28. Describr istio
+29. describe helm chart structre
 
 
 
@@ -168,6 +171,7 @@ https://github.com/kln12/Interview_questions/blob/main/AWS.md
 32.I have 3 tier application, configure it with private and public subnet?  
 33.How to replicate or create same machine with same configuration?
 34.how to manage the S3 Bucket from EC2 instance to write and read by private
+35. API gatway  
 
 
 # Terraform 
@@ -175,8 +179,8 @@ https://github.com/kln12/Interview_questions/blob/main/terraform.md
 1.Define statefile   
 2.write the samele S3 resource file    
 3.terraform state lock  
-4. 
-
+4. if you done any changes on AWS console and how to update on terraform  
+5.teraform lifecycle  
 
 
 
@@ -195,6 +199,8 @@ https://github.com/kln12/Interview_questions/blob/main/monitoring.md
 9.whre are application logs and server logs are stored  
 10.what is the use of node exporter and alert manager in prometheus?  
 11.difference between metrics monitoring and log monitoring, give example for both type of monitoring?  
+12.how to connect grafana through slack  
+13. what are the plugins available.
 
 #Define CI/CD  
 #Define Monolithic vs microservises
