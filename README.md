@@ -60,7 +60,7 @@ https://github.com/kln12/Interview_questions/blob/main/Docker.md
 12.Explain a sample dockerfile that you have used in your project?  
 13.How to check Docker Version  
 14. $D How troubleshoot the container in dameon?  
-
+15.How to disable and remove the docker plugins
 
 
 
@@ -181,6 +181,7 @@ https://github.com/kln12/Interview_questions/blob/main/terraform.md
 3.terraform state lock  
 4. if you done any changes on AWS console and how to update on terraform  
 5.teraform lifecycle  
+6. how to format the terraform code and check the version.
 
 
 
