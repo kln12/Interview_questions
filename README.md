@@ -151,7 +151,6 @@ https://github.com/kln12/Interview_questions/blob/main/AWS.md
 12.Define Security group and NACL  
 13.User data   
 14.Storage types  
-15.Disastor Recovery  
 16.Internet vs NAT Gatway  
 17.Faragate 
 18.VPC Peering  
