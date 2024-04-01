@@ -1,6 +1,7 @@
 # Interview_questions
 # GIT  
 https://github.com/kln12/Interview_questions/blob/main/Git.md  
+Github ci/cd actiona
 1.How to change commit name.  
 2.git actions default action   
 3.Explain about gitlab runnersand types  
@@ -16,6 +17,7 @@ https://github.com/kln12/Interview_questions/blob/main/Git.md
 13.What PR (Pull request) is? whats the importance of PR?  
 14.What is git squash?  
 15.Branching strategy?  
+16. difference b/w stash.pop and stash apply
 
 
 # Jenkins  
@@ -61,6 +63,7 @@ https://github.com/kln12/Interview_questions/blob/main/Docker.md
 13.How to check Docker Version  
 14. $D How troubleshoot the container in dameon?  
 15.How to disable and remove the docker plugins
+16.Docker lifecycle
 
 
 
@@ -100,7 +103,7 @@ https://github.com/kln12/Interview_questions/blob/main/kubernetes.md
 25.List objects you know in kubernetes?Give a brief about each object?   
 26.Diiference b/w replicaset and replica
 27.how communication b/w pod to pod
-28. Describr istio
+28. Describe istio
 29. describe helm chart structre
 
 
@@ -171,7 +174,7 @@ https://github.com/kln12/Interview_questions/blob/main/AWS.md
 33.How to replicate or create same machine with same configuration?
 34.how to manage the S3 Bucket from EC2 instance to write and read by private
 35. API gatway  
-
+36.ECS components  
 
 # Terraform 
 https://github.com/kln12/Interview_questions/blob/main/terraform.md  
