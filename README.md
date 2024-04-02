@@ -40,7 +40,9 @@ https://github.com/kln12/Interview_questions/blob/main/jenkins.md
 16.explain jenkins master-slave architexture?  
 17.what are the plugins used in jenkins  
 18.if you have 10 employees in your company, how can assign Jenkins access to these employee and give permission in Jenkins ?  
-19. what is the command to remove the workspace or directory
+19. what is the command to remove the workspace or directory  
+20.diff b/w bash and sh in shell script  
+21.how 
 
 
 
