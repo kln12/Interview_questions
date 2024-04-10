@@ -41,7 +41,6 @@ https://github.com/kln12/Interview_questions/blob/main/jenkins.md
 17.what are the plugins used in jenkins  
 18.if you have 10 employees in your company, how can assign Jenkins access to these employee and give permission in Jenkins ?  
 19. what is the command to remove the workspace or directory  
-20.diff b/w bash and sh in shell script  
 21.how 
 
 
@@ -131,6 +130,7 @@ https://github.com/kln12/Interview_questions/blob/main/linux.md
 17. how to copy the file from host to another host?  
 18.Define softlink and hardlink  
 19. Describe Umask.  
+20.diff b/w bash and sh in shell script  
 
 
 
@@ -185,7 +185,8 @@ https://github.com/kln12/Interview_questions/blob/main/terraform.md
 3.terraform state lock  
 4. if you done any changes on AWS console and how to update on terraform  
 5.teraform lifecycle  
-6. how to format the terraform code and check the version.
+6. how to format the terraform code and check the version.   
+7.diff b/w var.tf and filr.tfvar
 
 
 
